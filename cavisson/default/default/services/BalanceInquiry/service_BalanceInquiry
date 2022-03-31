@@ -1,0 +1,18 @@
+{
+  "RespType": "AccountSummary",
+  "AssociateAccount": [
+    {
+      "accId": "{AccountID}",
+      "AvailableBalance": "{balance}",
+      "acctype": "Deposit"
+    }
+  ]
+  "CreditCardAccount": [
+    {
+      "cstId": "{CstNumber}",
+      "statementBalance": "{creditcardbalance}",
+      "duedate": "Deposit",
+    "paymentdue": "Deposit",
+    }
+  ]
+}
