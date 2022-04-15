@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <transactionID>590249-ghskor-256-2022</transactionID>
+   </soap:Header>
+   <soap:Body>
+      <Basic_Policy_Information>
+         <policies>
+            <item>
+               <PolicyType>Commercial General Liability</PolicyType>
+               <Department>Commercial</Department>
+               <InsuredFirstName>Robert</InsuredFirstName>
+               <InsuredLastName>Wilson</InsuredLastName>
+               <InsuredPONo>CVP100596</InsuredPONo>
+               <PolicyNumber>2019094131002462</PolicyNumber>
+               <PolicyEffectiveDate>20210923</PolicyEffectiveDate>
+               <PolicyExpirationDate>20221024</PolicyExpirationDate>
+            </item>
+            <item>
+               <CurrentTermPermium>0000003900</CurrentTermPermium>
+               <CurrentAgencyCommision>00</CurrentAgencyCommision>
+               <InitialPremiumAmount>00005410</InitialPremiumAmount>
+               <IssuingCarrier>23876</IssuingCarrier>
+               <BillingCompany>23876</BillingCompany>
+            </item>
+            <item>
+               <AddressLine1>17580 PRESTON RD</AddressLine1>
+               <City>DALLAS</City>
+               <Country>US</Country>
+               <State>TX</State>
+               <ZipCode>752525732</ZipCode>
+            </item>
+            <CoverageInformation>
+               <CoverageCode>0.00</CoverageCode>
+               <Limits>0.00</Limits>
+               <LOBCd>AUTO</LOBCd>
+               <MiscellaneousOption>62.86</MiscellaneousOption>
+               <GrandTotal>824.85</GrandTotal>
+            </CoverageInformation>
+         </policies>
+      </Basic_Policy_Information>
+   </soap:Body>
+</soap:Envelope>
