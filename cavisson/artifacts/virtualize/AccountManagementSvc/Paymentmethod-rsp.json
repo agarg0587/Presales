@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+
+{
+    "orderAmount": 10.50,
+    "fulfilmentAmount": 0,
+    "refundedAmount": 0,
+    "currency": "USD",
+    "cancelable": false,
+    "refundable": false,
+    "completable": true,
+    "timestamp": "04-15-22/03:05",
+    "transactionReferences": [
+        {
+            "transactionId": 3495717101571,
+            "transactionTypeId": 108,
+            "transactionType": "InitiateDebit",
+            "transactionDate": "04-15-22/03:05",
+            "transactionDesc": "Transaction Accepted",
+            "statusCode": 0,
+            "status": "Processed",
+            "amount": 10.50,
+            "currency": "USD",
+            "paymentMethod": "PayPal",
+        }
+    ]
+}
