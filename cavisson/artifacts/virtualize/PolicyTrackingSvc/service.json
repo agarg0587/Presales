@@ -1,0 +1,17 @@
+{
+    "serviceName": "FetchPolicyInfo",
+    "configuration": {
+        "serviceTime": "500"
+    },
+   
+    "parameters": [
+   {
+     "name": "param1",
+     "type": "dataset",
+     "headerLineno": 1,
+     "columnDelim": ",",
+     "fileName": "dataset1.txt",
+     "ignoreInvalidLine": "YES"
+   }
+ ]
+}
