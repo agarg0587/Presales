@@ -1,7 +1,7 @@
 {
     "serviceName": "FetchPolicyInfo",
     "configuration": {
-        "serviceTime": "500"
+        "serviceTime": "1500"
     },
    
     "parameters": [
