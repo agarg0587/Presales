@@ -1,0 +1,12 @@
+{
+  "RequestType": "Association",
+  "Version": "V1",
+  "AssociateAccount": [
+    {
+      "accId": "12365498",
+      "encryptedsecuritycode": "MTIzZXJkdA==",
+      "phonenum": "8895945456",
+      "originator": "national"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+"errors": {
+"error": [
+{
+"requestId": "d38ccab2-cec4-445c-be81-fa5144a7d20e",
+"errorCode": "11002",
+"message": "ERROR_SERVICE_TEMPORARILY_UNAVAILABLE",
+"developerMessage": "Caused by service unavailable"
+}
+]
+}
+}
