@@ -5,11 +5,11 @@
    
     "parameters": [
    {
-     "name": "param1",
+     "name": "AddressDetail",
      "type": "dataset",
      "headerLineno": 1,
      "columnDelim": ",",
-     "fileName": "dataset1.txt",
+     "fileName": "CstAddress.txt",
      "ignoreInvalidLine": "YES"
    }
  ]
