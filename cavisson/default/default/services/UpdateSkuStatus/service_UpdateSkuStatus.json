@@ -1,0 +1,8 @@
+{
+"body": [
+{$CAVREPEAT_BLOCK_START, sep(,), Count(SkutoUpdateSP)}{
+"status": 200,
+"message": "Updated|{SkutoUpdateSP}",
+{$CAVREPEAT_BLOCK_END}},
+],
+}
