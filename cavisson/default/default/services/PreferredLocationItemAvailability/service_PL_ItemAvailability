@@ -1,0 +1,38 @@
+{ 
+   "returnCode": "1", 
+   "servedFrom": "PFLApp2",
+   "returnMessage": "{ReturnStatus}", 
+   "itemList": [    
+   {$CAVREPEAT_BLOCK_START, sep(,), Count(upcNumber)} 
+   { 
+      "lineNumber": {lineNumber}, 
+      "upcNumber": {upcNumber}, 
+      "quantityAdjusted": {quantityRequested}, 
+      "unitPrice": 0, 
+      "shipdetails":       [ 
+                  { 
+            "shipDate": "01/10/2020", 
+            "shipDays": "2", 
+            "shipIndicator": "C", 
+            "deliveryType": "3" 
+         },
+                  { 
+            "shipDate": "01/10/2020", 
+            "shipDays": "2", 
+            "shipIndicator": "C", 
+            "deliveryType": "W" 
+         } 
+      ], 
+      "giftMessageSupportForDrop": false, 
+      "dropVendorNumber": 0, 
+      "fulfillmentLocations": [      { 
+         "filLocationNumber": 6260, 
+         "filDivison": "71", 
+         "fillQuantity": 1 
+      }], 
+      "discontinueFlag": "false", 
+      "productGroupCode": "ELECT2"
+   } 
+   {$CAVREPEAT_BLOCK_END} 
+   ] 
+}

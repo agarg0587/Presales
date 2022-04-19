@@ -1,0 +1,260 @@
+{"itemAvailabilityRS": {
+   "statusType": "SUCCESS",
+   "code": "0000",
+   "developerMessage": "Request process successfully",
+   "userMessage": "Request process successfully",
+   "orderNumber": "{OrderNum}",
+   "orderGuid": "c29c302d-b359-4451-8f09-cf9bc42eb4f5",
+   "user": {"userID": 201397158},
+   "merchandiseTotal": 0,
+   "merchandiseTotalBeforeDiscount": 0,
+   "grandTotal": 0,
+   "totalShippingCharge": 13.95,
+   "totalTax": 0,
+   "totalPersonalizationFee": 0,
+   "shipments": [   {
+      "shipmentId": 1,
+      "deliveryOptions":       [
+                  {
+            "availableFlag": true,
+            "description": "Standard",
+            "maxEstimatedDeliveryDay": 6,
+            "minEstimatedDeliveryDay": 3,
+            "minEstimatedDeliveryDate": "2018-05-29T00:00:00.000+0000",
+            "maxEstimatedDeliveryDate": "2018-06-01T00:00:00.000+0000",
+            "code": "G",
+            "price": 9.95,
+            "sequenceNumber": 1,
+            "upChargeFee": 0,
+            "estimatedDelivery": "3-6 business days"
+         },
+                  {
+            "availableFlag": true,
+            "description": "Premium",
+            "maxEstimatedDeliveryDay": 3,
+            "minEstimatedDeliveryDay": 2,
+            "minEstimatedDeliveryDate": "2018-05-28T00:00:00.000+0000",
+            "maxEstimatedDeliveryDate": "2018-05-29T00:00:00.000+0000",
+            "code": "2",
+            "price": 19.95,
+            "sequenceNumber": 2,
+            "upChargeFee": 10,
+            "estimatedDelivery": "2-3 business days"
+         },
+                  {
+            "availableFlag": true,
+            "description": "Express",
+            "maxEstimatedDeliveryDay": 2,
+            "minEstimatedDeliveryDay": 1,
+            "minEstimatedDeliveryDate": "2018-05-25T00:00:00.000+0000",
+            "maxEstimatedDeliveryDate": "2018-05-28T00:00:00.000+0000",
+            "code": "O",
+            "price": 29.95,
+            "sequenceNumber": 3,
+            "upChargeFee": 20,
+            "estimatedDelivery": "1-2 business days"
+         },
+                  {
+            "availableFlag": true,
+            "description": "Same-Day Delivery",
+            "maxEstimatedDeliveryDay": 1,
+            "minEstimatedDeliveryDay": 1,
+            "minEstimatedDeliveryDate": "2018-05-25T00:00:00.000+0000",
+            "maxEstimatedDeliveryDate": "2018-05-25T00:00:00.000+0000",
+            "code": "S",
+            "price": 5,
+            "sequenceNumber": 6,
+            "upChargeFee": 5,
+            "estimatedDelivery": "0-1 business days"
+         },
+                  {
+            "availableFlag": true,
+            "description": "No Hurry",
+            "maxEstimatedDeliveryDay": 9,
+            "minEstimatedDeliveryDay": 6,
+            "minEstimatedDeliveryDate": "2018-06-01T00:00:00.000+0000",
+            "maxEstimatedDeliveryDate": "2018-06-06T00:00:00.000+0000",
+            "code": "W",
+            "price": 9.95,
+            "sequenceNumber": 7,
+            "upChargeFee": 0,
+            "estimatedDelivery": "6-9 business days"
+         }
+      ],
+      "items":       [
+                  {
+            "adjustedQuantity": 1,
+            "deliveryOptions":             [
+                              {
+                  "availableFlag": true,
+                  "description": "Standard",
+                  "code": "G"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "Express",
+                  "code": "O"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "Premium",
+                  "code": "2"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "ICW",
+                  "code": "W"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "SDD",
+                  "code": "S"
+               }
+            ],
+            "giftCardAmount": 0,
+            "giftCardFrom": "",
+            "giftCardMessage": "",
+            "giftCardSubject": "",
+            "giftCardTo": "",
+            "giftMessageFlag": false,
+            "giftWrapFlag": true,
+            "gwpFlag": false,
+            "icwEligible": true,
+            "itemTotal": 35.99,
+            "personalizationFee": 0,
+            "pickupFromStore": false,
+            "price": 44,
+            "priceAfterDiscount": 0,
+            "priceOverride": 0,
+            "productId": 4192,
+            "productInfo":             {
+               "productAvailability": true,
+               "addByApp": "MCOM",
+               "orderMethod": "STR1",
+               "name": "Wedgwood Renaissance Gold Salad Plate",
+               "brandName": "Wedgwood",
+               "productType": "CHINA"
+            },
+            "promotionId": 0,
+            "quantity": 1,
+            "sequenceNumber": 3,
+            "shopRunnerEligible": false,
+            "siteAvailabilityFlag": true,
+            "surchargeFee": 0,
+            "tax": 2.16,
+            "upcId": 111,
+            "upcNumber": 719812261911
+         },
+                  {
+            "adjustedQuantity": 1,
+            "deliveryOptions":             [
+                              {
+                  "availableFlag": true,
+                  "description": "Standard",
+                  "code": "G"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "Express",
+                  "code": "O"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "Premium",
+                  "code": "2"
+               },
+                              {
+                  "availableFlag": true,
+                  "description": "ICW",
+                  "code": "W"
+               }
+            ],
+            "giftCardAmount": 0,
+            "giftCardFrom": "",
+            "giftCardMessage": "",
+            "giftCardSubject": "",
+            "giftCardTo": "",
+            "giftMessageFlag": false,
+            "giftWrapFlag": false,
+            "gwpFlag": false,
+            "icwEligible": true,
+            "itemTotal": 19.99,
+            "personalizationFee": 0,
+            "pickupFromStore": false,
+            "price": 52,
+            "priceAfterDiscount": 0,
+            "priceOverride": 0,
+            "productId": 4194,
+            "productInfo":             {
+               "productAvailability": true,
+               "addByApp": "MCOM",
+               "orderMethod": "STR1",
+               "name": "Villeroy & Boch Dinnerware, French Garden Dinner Plate",
+               "brandName": "Villeroy & Boch",
+               "productType": "DINNERWARE"
+            },
+            "promotionId": 0,
+            "quantity": 1,
+            "sequenceNumber": 6,
+            "shopRunnerEligible": false,
+            "siteAvailabilityFlag": true,
+            "surchargeFee": 4,
+            "tax": 1.2,
+            "upcId": 112,
+            "upcNumber": 719812280813
+         }
+      ],
+      "contact":       {
+         "firstName": "ghejghk",
+         "lastName": "Sample",
+         "emailAddress": "ehkgljrgh@gmail.com",
+         "homePhone": "912-345-7657",
+         "address":          {
+            "addressLine1": "8000 Tysons Corner center",
+            "city": "Mc Lean",
+            "state": "VA",
+            "country": "USA",
+            "postalCode": "22102",
+            "useSuggestedAddress": true,
+            "validatedFlag": true
+         }
+      },
+      "shipmentTax":       {
+         "giftWrapTax": 0,
+         "giftWrapTaxRate": 0
+      },
+      "shipType": "SMALLTICKET",
+      "groupDeliveryOptions":       [
+                  {
+            "availableOptions": [{"code": "S"}],
+            "shippingMethodEligibleItems": {"items": [            {
+               "upcID": "111",
+               "itemSequenceNumber": 3,
+               "itemQuantity": 1
+            }]}
+         },
+                  {
+            "availableOptions":             [
+               {"code": "O"},
+               {"code": "2"},
+               {"code": "G"},
+               {"code": "W"}
+            ],
+            "shippingMethodEligibleItems": {"items":             [
+                              {
+                  "upcID": "111",
+                  "itemSequenceNumber": 3,
+                  "itemQuantity": 1
+               },
+                              {
+                  "upcID": "112",
+                  "itemSequenceNumber": 6,
+                  "itemQuantity": 1
+               }
+            ]}
+         }
+      ],
+      "storeLocationNumber": 2450,
+      "sameDayEligibility": true
+   }]
+}}

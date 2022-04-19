@@ -1,0 +1,93 @@
+{
+   "returnCode": "1",
+   "returnMessage": "SUCCESS",
+   "itemList": [   {
+      "lineNumber": 1,
+      "upcNumber": 883049282022,
+      "quantityAdjusted": 3,
+      "unitPrice": 0,
+      "shipdetails":       [
+                  {
+            "shipDate": "01/10/2019",
+            "shipDays": "2",
+            "shipIndicator": "C",
+            "deliveryType": "3"
+         },
+                  {
+            "shipDate": "01/10/2019",
+            "shipDays": "2",
+            "shipIndicator": "C",
+            "deliveryType": "2"
+         },
+                  {
+            "shipDate": "01/10/2019",
+            "shipDays": "2",
+            "shipIndicator": "C",
+            "deliveryType": "1"
+         },
+                  {
+            "shipDate": "01/10/2019",
+            "shipDays": "2",
+            "shipIndicator": "C",
+            "deliveryType": "W"
+         }
+      ],
+      "deliveryDetails":       [
+                  {
+            "estimatedArrivalDate": "01/15/2019",
+            "deliveryDays": "8",
+            "deliveryInd": "C",
+            "deliveryType": "3"
+         },
+                  {
+            "estimatedArrivalDate": "01/11/2019",
+            "deliveryDays": "4",
+            "deliveryInd": "C",
+            "deliveryType": "2"
+         },
+                  {
+            "estimatedArrivalDate": "01/10/2019",
+            "deliveryDays": "3",
+            "deliveryInd": "C",
+            "deliveryType": "1"
+         },
+                  {
+            "estimatedArrivalDate": "01/15/2019",
+            "deliveryDays": "8",
+            "deliveryInd": "C",
+            "deliveryType": "W"
+         }
+      ],
+      "giftMessageSupportForDrop": false,
+      "dropVendorNumber": 0,
+      "fulfillmentLocations": [      {
+         "filLocationNumber": 6260,
+         "locationType": "PS",
+         "locationreturnCode": "SN",
+         "orderMethod": "POOL",
+         "shipMethodOptions": "1",
+         "fillStore": 864,
+         "quantityAllocated": 0,
+         "refurbishPutAway": 0,
+         "totalAvailableToSell": 3,
+         "filDivison": "71",
+         "fillQuantity": 3
+      }],
+      "discontinueFlag": "false",
+      "productGroupCode": "ELECT2",
+      "dropShipMethods": "",
+      "sameSkuUpcFlag": false,
+      "giftRegistryEligible": true,
+      "giftCatId": 14,
+      "giftCatDescription": "ELECTRICS",
+      "giftMessageSupplyFlag": true,
+      "divisionDefinedFlag": true,
+      "instoreEligibilityFlag": true,
+      "ngfProductCode": 5,
+      "ngfProductDate": "9999-12-30",
+      "shipAloneIndicator": "N",
+      "clearance": false,
+      "giftWrapAvailable": false,
+      "partialFulfilled": false
+   }]
+}
