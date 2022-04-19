@@ -26,11 +26,11 @@ HTTP/1.1 200 OK
                <BillingCompany>23876</BillingCompany>
             </item>
             <item>
-               <AddressLine1>17580 PRESTON RD</AddressLine1>
-               <City>DALLAS</City>
+               <AddressLine1>{AddressLine}</AddressLine1>
+               <City>{City}</City>
                <Country>US</Country>
-               <State>TX</State>
-               <ZipCode>752525732</ZipCode>
+               <State>{State}</State>
+               <ZipCode>{Zipcode}</ZipCode>
             </item>
             <CoverageInformation>
                <CoverageCode>0.00</CoverageCode>
