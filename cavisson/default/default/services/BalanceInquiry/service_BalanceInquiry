@@ -11,8 +11,7 @@
     {
       "cstId": "{CstNumber}",
       "statementBalance": "{creditcardbalance}",
-      "duedate": "Deposit",
-    "paymentdue": "Deposit",
+      "duedate": "15-09-2017",
     }
   ]
 }
