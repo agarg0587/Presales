@@ -1,0 +1,35 @@
+{
+"body": [
+{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "High|28626380018",
+}
+},{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "Medium|29046730000",
+}
+},{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "High|28286300000",
+}
+},{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "Medium|45555520000",
+}
+},{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "Low|78015950018",
+}
+},
+],
+}
