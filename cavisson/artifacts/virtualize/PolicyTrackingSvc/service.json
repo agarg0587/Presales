@@ -5,7 +5,7 @@
    
     "parameters": [
    {
-     "name": "AddressLine,State,City,Zipcode",
+     "name": "AddressLine,City,State,Zipcode",
      "type": "dataset",
      "headerLineno": 1,
      "columnDelim": ",",
