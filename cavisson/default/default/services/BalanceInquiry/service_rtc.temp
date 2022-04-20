@@ -1,9 +1,0 @@
-
-URL /AJB/balanceinquiry 
-
-nsl_search_var (AccountID, LB="\"accId\": \"", RB="\",", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
-nsl_index_file_var (CstNumber, FILE=CustomerData.csv, IndexVar=AccountID, FirstDataLine=2, ColumnDelimiter=,, HeaderLine=1, IgnoreInvalidDataLine=NO);
-nsl_dbquery_var (balance,creditcardbalance, DSN="bankingdb", QUERY="SELECT%20balance%2C%20creditcardbalance%20from%20acc_balance%20where%20accountid%3D'%7BAccountID%7D'", ORD=1);
-RESPONSE_TEMPLATE BalanceInquiry Simulate NA service_BalanceInquiry active NA
-HPD_DEBUG_TRACE 0
-SVC_TIME 0 0
