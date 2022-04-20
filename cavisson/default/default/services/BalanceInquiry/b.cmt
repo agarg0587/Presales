@@ -1,0 +1,56 @@
+commit 91a0bffc3988b0188c7a5b6d28d38ad416559ac4
+Author: Anjali <Anjali.garg@cavisson.com>
+Date:   Mon Apr 18 23:23:30 2022 -0500
+
+    Version1|Anjali
+
+diff --git a/cavisson/default/default/services/BalanceInquiry/service.conf b/cavisson/default/default/services/BalanceInquiry/service.conf
+index 2421662..547f0c6 100644
+--- a/cavisson/default/default/services/BalanceInquiry/service.conf
++++ b/cavisson/default/default/services/BalanceInquiry/service.conf
+@@ -1,8 +1,9 @@
+ 
+-URL /AJB/BalanceInquiry
++URL /AJB/balanceinquiry 
+ 
+ nsl_search_var (AccountID, LB="\"accId\": \"", RB="\",", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
+ nsl_index_file_var (CstNumber, FILE=CustomerData.csv, IndexVar=AccountID, FirstDataLine=2, ColumnDelimiter=,, HeaderLine=1, IgnoreInvalidDataLine=NO);
+ SVC_TIME 2 500
+ nsl_dbquery_var (balance,creditcardbalance, DSN="bankingdb", QUERY="SELECT%20balance%2C%20creditcardbalance%20from%20acc_balance%20where%20accountid%3D'%7BAccountID%7D'", ORD=1);
+ RESPONSE_TEMPLATE BalanceInquiry Simulate NA service_BalanceInquiry active NA
++HPD_DEBUG_TRACE 0
+diff --git a/cavisson/default/default/services/BalanceInquiry/service.log b/cavisson/default/default/services/BalanceInquiry/service.log
+index ee80858..ee11b60 100644
+--- a/cavisson/default/default/services/BalanceInquiry/service.log
++++ b/cavisson/default/default/services/BalanceInquiry/service.log
+@@ -1 +1 @@
+-LMD=03/31/2022 12:54|LMB=Anjali
++LMD=04/05/2022 00:27|LMB=Anjali
+diff --git a/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry b/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry
+index 673be4b..9ae428d 100644
+--- a/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry
++++ b/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry
+@@ -11,8 +11,7 @@
+     {
+       "cstId": "{CstNumber}",
+       "statementBalance": "{creditcardbalance}",
+-      "duedate": "Deposit",
+-    "paymentdue": "Deposit",
++      "duedate": "15-09-2017",
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry.req b/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry.req
+index 1ea2261..a69e1c0 100644
+--- a/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry.req
++++ b/cavisson/default/default/services/BalanceInquiry/service_BalanceInquiry.req
+@@ -3,7 +3,7 @@
+   "Version": "V1",
+   "AssociateAccount": [
+     {
+-      "accId": "45632198",
++      "accId": "29648437",
+       "encryptedsecuritycode": "Z3loZDIzNjdibg==",
+       "phonenum": "1236549871",
+       "originator": "cavisson"
