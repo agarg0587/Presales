@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <NF_REQUEST_MSG xsi:type="NF_REQUEST_MSGType">
+      <NF_REQ_MSG_HEADER_AREA>
+      <NF_REQ_LOGIN>David</NF_REQ_LOGIN>
+      </NF_REQ_MSG_HEADER_AREA>
+      <NF_REQUEST_VAR>
+      <NF_REQ_TYPE>AccountSummary</NF_REQ_TYPE>
+      <NF_USER_ACCOUNT>David</NF_USER_ACCOUNT>
+      </NF_REQUEST_VAR>
+    </NF_REQUEST_MSG>
+  </soap:Body>
+</soap:Envelope>

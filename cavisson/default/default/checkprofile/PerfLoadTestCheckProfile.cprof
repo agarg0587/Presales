@@ -1,0 +1,16 @@
+Profile_Last_Updated_By = Govind
+Profile_Last_Updated_On = 19/4/2022 19:3:31
+Profile_Description = CavissonVirtualService
+Test_Run_Number = 1165
+Prod = false
+Stress = false
+# Rule|Rule Id|Rule Name|Rule Type|Graph Definition|% Change|Expected Result|State|Last Updated By|Last Updated On|Future1|Future2|Future3|Future4|Future5|Rule Description|Production Value|Stress Value
+#if keyword is not enabled , prod and stress values will show '0.0'
+Rule|1|SysStats_Linux_Extended_Rule|Check Rules|Avg (10108.18.All) < 50|50|Pass|Yes|Govind|19/4/2022 18:55:31|-|-|-|-|-|CPUUtilization( % )|0.0|0.0|Avg (10108.18.All) < 50
+Rule|2|Memory_Stats_Extended3_Rule|Check Rules|Avg (10670.4.All) < 50|50|Pass|Yes|Govind|19/4/2022 18:56:2|-|-|-|-|-|ActualUsedMemory(%) |0.0|0.0|Avg (10670.4.All) < 50
+Rule|3|File_System_stats_Rule|Check Rules|Avg (10028.9.Cavisson>NOAppliance>/) > 60|50|Pass|Yes|Govind|19/4/2022 18:56:37|-|-|-|-|-|UsedDiskSpace (%)|0.0|0.0|Avg (10028.9.Cavisson>NOAppliance>/) > 60
+Rule|4|Transaction_Stats_Rule|Check Rules|Avg (102.1.All) < 500|50|Pass|Yes|Govind|19/4/2022 18:57:51|-|-|-|-|-|TransactionTime(ms)|0.0|0.0|Avg (102.1.All) < 500
+Rule|5|Transaction_Stats_Rule_1|Check Rules|Count (102.1.All) > 1000|50|Pass|Yes|Govind|19/4/2022 18:58:8|-|-|-|-|-|TransactionCount|0.0|0.0|Count (102.1.All) > 1000
+Rule|6|Transaction_Stats_Rule_2|Check Rules|Avg (102.6.All) < 1|50|Pass|Yes|Govind|19/4/2022 18:59:12|-|-|-|-|-|TransactionsFailures(%)|0.0|0.0|Avg (102.6.All) < 1
+Rule|7|Network_traffic_Rule|Check Rules|Avg (10029.9.Cavisson>NOAppliance>enp0s3) > 100|50|Pass|Yes|Govind|19/4/2022 19:2:55|-|-|-|-|-|TransmittedThroughput(Kbps)|0.0|0.0|Avg (10029.9.01000011 01100001 01110110 01101001 01110011 01110011 01101111 01101110 00111110 01001110 01001111 01000001 01110000 01110000 01101100 01101001 01100001 01101110 01100011 01100101 00111110 01100101 01101110 01110000 00110000 01110011 00110011) > 100
+Rule|8|Network_traffic_Rule_1|Check Rules|Avg (10029.1.Cavisson>NOAppliance>enp0s3) > 100|50|Pass|Yes|Govind|19/4/2022 19:3:31|-|-|-|-|-|ReceivedThroughput(Kbps)|0.0|0.0|Avg (10029.1.01000011 01100001 01110110 01101001 01110011 01110011 01101111 01101110 00111110 01001110 01001111 01000001 01110000 01110000 01101100 01101001 01100001 01101110 01100011 01100101 00111110 01100101 01101110 01110000 00110000 01110011 00110011) > 100

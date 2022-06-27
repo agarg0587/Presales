@@ -1,0 +1,12 @@
+
+#User = ****|Directory = capturedRRFiles1656316720074|Template=Paymentmethod
+
+URL /api/v2/merchants/payment
+
+#Paymentmethod /api/v2/merchants/payment
+
+RESPONSE_TEMPLATE Paymentmethod Simulate NA service_Paymentmethod active NA
+
+SVC_TIME 2 700
+
+TEMPLATE_BASED_STATUS_CODE Paymentmethod 200 OK

@@ -1,0 +1,34 @@
+{
+  "skuAvailability": [
+    {
+      "skuId": "28626380018",
+      "inventoryCheckRequired": "true",
+      "countryCode": "US",
+      "deliveryOptions": "standard"
+    },
+    {
+      "skuId": "29046730000",
+      "inventoryCheckRequired": "true",
+      "countryCode": "US",
+      "deliveryOptions": "standard"
+    },
+    {
+      "skuId": "28286300000",
+      "inventoryCheckRequired": "true",
+      "countryCode": "US",
+      "deliveryOptions": "standard"
+    },
+    {
+      "skuId": "45555520000",
+      "inventoryCheckRequired": "true",
+      "countryCode": "US",
+      "deliveryOptions": "standard"
+    },
+    {
+      "skuId": "78015950018",
+      "inventoryCheckRequired": "true",
+      "countryCode": "US",
+      "deliveryOptions": "standard"
+    }
+  ]
+}

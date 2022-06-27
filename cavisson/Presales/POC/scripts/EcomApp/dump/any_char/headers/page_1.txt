@@ -1,0 +1,55 @@
+--Request 
+GET http://192.168.1.86:19001/nsecom HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept-Encoding: gzip,deflate
+Accept-Language: en-us,en;q=0.5
+Connection: keep-alive
+Host: 192.168.1.86:19001
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+----
+--Response  
+HTTP/1.1 302 Moved Temporarily
+Date: Mon, 25 Mar 2013 13:09:54 GMT
+Location: http://192.168.1.86:19001/nsecom/
+Transfer-Encoding: chunked
+---
+
+--Request 
+GET http://192.168.1.86:19001/nsecom/ HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept-Encoding: gzip,deflate
+Accept-Language: en-us,en;q=0.5
+Connection: keep-alive
+Host: 192.168.1.86:19001
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+----
+--Response  
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 2194
+Content-Type: text/html
+Date: Mon, 25 Mar 2013 13:09:54 GMT
+Last-Modified: Wed, 20 Mar 2013 11:49:10 GMT
+---
+
+--Request 
+GET http://192.168.1.86:19001/nsecom/images/logo.png HTTP/1.1
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept-Encoding: gzip,deflate
+Accept-Language: en-us,en;q=0.5
+Connection: keep-alive
+Host: 192.168.1.86:19001
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+----
+--Response  
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 7404
+Date: Mon, 25 Mar 2013 13:09:54 GMT
+Last-Modified: Wed, 20 Mar 2013 11:49:10 GMT
+---
+
+

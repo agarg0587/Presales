@@ -1,0 +1,5 @@
+--2a8ae6ad-f4ad-4d9a-a92c-6d217011fe0f
+Content-Disposition: form-data; name="datafile1"; filename="{attachment_file_name}"
+Content-Type: {content_type}
+{attachment_file}
+--2a8ae6ad-f4ad-4d9a-a92c-6d217011fe0f

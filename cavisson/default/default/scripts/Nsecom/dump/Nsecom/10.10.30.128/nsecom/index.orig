@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Sample Applications</title>
+</head>
+<body bgcolor=white>
+
+<table border="0">
+<tr>
+<td>
+<img src="images/logo.png">
+</td>
+<td>
+<center>
+<h1>Sample Applications</h1></center>
+<p>This is the home page for a sample application used for NetDiagnostics testing
+</td>
+</tr>
+</table>
+<p>Click any one of following links:
+<ul>
+<b><u>CheckOutAndPlaceOrder Application</u></b>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5">CheckOutAndPlaceOrder</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?productid=1520&sessionid=6000">CheckOutAndPlaceOrder_New</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1">PrintLog</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?manymethods=yes">ManyMethodsCall</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?operation=insert&prodID=P001&prodName=Jeans&quantity=10&price=9000">InsertData</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?operation=select&column=all">RetrieveData</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?operation=update&column=price&uvalue=9889&wcolumn=id&wvalue=P001">UpdateData</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?operation=delete&wcolumn=id&wvalue=P001">DeleteData</a>
+<li>Product check out and place order <a href="checkOutAndPlaceOrder?query=select%20*%20from%20purchaseorder">ExecuteQuery</a>
+<li>Product check out and place order with hotspot <a href="checkOutAndPlaceOrderHotSpot">CheckOutAndPlaceOrderHotSpot</a>
+<li>Connect with db and execute query <a href="executedbquery">ConnectDB</a>
+</br><b><u>NSECOM APPLICATION</u></b>
+<li>HomePage <a href="home">nsecom</a>
+</br><b><u>CASSANDRA DB</u></b>
+<li><a href="cassandra.jsp">Connect to Cassandra</a>
+</br><b><u>BUFFER POOL</u></b>
+<li><a href="mappedbyterbuffer.jsp">Mapped and direct Byte Buffer</a>
+</br><b><u>Mongo DB</u></b>
+<li><a href="MongoDb.jsp">Connect to Mongo DB</a>
+</br><b><u>Session Attribute Using Servlet</u></b>
+<li><a href="login.html">Set Session Using Servlet</a>
+</br><b><u>Session Attribute Using JSP</u></b>
+<li><a href="sessionIndex.jsp">JSP Session Capturing using SessionServlet </a>
+</br><b><u>NDWebProject</u></b>
+<li>HomePage <a href="NDWebProject/jsp/HomePage.jsp">NDWebProject</a>
+</br><b><u>MULTITIER APPLICATION</u></b>
+<!--<li>SimpleTwoTierApplication <a href="frontedTier">FrontendServlet</a>
+<li>SimpleMultilevelTierApplication <a href="frontendMultilevelServlet">FrontendMultilevelServlet</a>
+<li>HessianTwoTierApplication <a href="frontEndHessian">HessianFrontendServlet</a>
+<li>ApacheHTTPClientRequest <a href="frontendHTTPClintRequest">ApacheHTTPClientRequest</a>
+<li>AbstractApacheHTTPClientRequest <a href="frontendAbstractApacheHTTPClientRequest">AbstractApacheHTTPClientRequest</a>
+<li>InternalHTTPClientRequest <a href="frontendInternalHTTPClientRequest">InternalHTTPClientRequest</a>
+<li><a href="frontendApacheWinkClientRequest">Frontend for ApacheWink And Spring RestTemplate ClientRequest</a> -->
+<li>Multier application Http callouts home page<a href="HTTP_CALLOUT">HTTP_CALLOUT</a>
+</br><b><u>Generic Call outs</u></b>
+<li>ConfigureCallOuts <a href="genericCallOuts?fileName=nsecom.properties">GenericCallOuts</a>
+
+</br><b><u>Tier Call outs</u></b>
+<li><a href="TierCall.jsp">Asynchronous Thread TierCallout</a>
+
+<!-- </br><b><u>JMS Appplication</u></b>
+<li>JMS<a href="">jms</a>
+</br><b><u>RMI Appplication</u></b>
+<li>RMI<a href="rmiApp.jsp">rmi</a> -->
+</br><b><u>Testing App</u></b>
+<li>Testing"<a href="start">StartServlet</a>
+<li>Instrumentation Testing<a href="Instrument/jsp/startInstr.jsp">InstrumentServlet</a>
+<li>DeadLock Testing<a href="DeadLock/jsp/DeadLock.jsp">DeadLockServlet</a>
+</br><b><u>Redirections</u></b>
+<li>RedirectionPage<a href="redirection.jsp" title="Different cases of redirection can be tested here" >First Page </a>
+</br><b><u>Logback</u></b>
+<li>Logback page<a href="logbackimpl" title="Logback testing" >call Logback </a>
+</br><b><u>Exceptions</u></b>
+<li>Testing<a href="ExceptionPage.html" title="Different cases of exceptions can be tested here" >Exception Page</a>
+<li><a href="ldap" title="ldap Calls" >Ldap Calls</a>
+<li><a href="redis" title="ldap Calls" >Redis Calls</a>
+</br><b><u>FeignClient</u></b>
+<li>Feign Client Calls<a href="feigncall" title="feignclient testing" >call feignclient</a>
+</br><b><u>Threads</u></b>
+<li><a href="ThreadPage.html" title="Please click here to generate threads" >Testing Thread Callout without Thread Pool</a>
+<li><a href="ThreadPools.html" title="Please click here to generate threads using ThreadPoolExecutor" >Testing Thread Callout using Thread Pool</a>
+</br><b><u>Web Services</u></b>
+<li><a href="startserver" title="Starting server for applications" >Start servers for Application</a>
+<li><a href="webServiceClient" title="Backend Calls to web services" >Test Web Service calls from backend</a>
+<!--<li><a href="lambda" title="lambda expression" >Testing lambda expression calls</a> -->
+<li><a href="apache_servlet27" title="APACHE CXF 2.7" >Testing apache cxf 2.7 calls</a> 
+<li><a href="calcrestclient" title="APACHE CXF 2.7 Rest Client" >Testing apache cxf 2.7 Rest calls_Synchronous</a> 
+<li><a href="calcpollrestclient" title="APACHE CXF 2.7 Rest Client" >Testing apache cxf 2.7 Rest calls_Async_PollClient</a>
+<li><a href="calccallbackrestclient" title="APACHE CXF 2.7 Rest Client" >Testing apache cxf 2.7 Rest calls_Async_Callback</a>
+
+<li><a href="calcreststartup" title="START APACHE CXF 2.7 Rest Server" >Start apache cxf 2.7 Rest Server</a> 
+<li><a href="activeMQ_servlet" title="ACTIVE MQ JMS CALLS" >Testing activemq jms calls</a> 
+<li><a href="rabbitMQ_servlet" title="RABBIT MQ JMS CALLS" >Testing rabbitmq jms calls</a> 
+<li><a href="coherenceCalls" title="Discover Coherence and MemCache" >Discover Coherence and MemCache</a>
+<li><a href="cloudantCalls" title="Discover Cloudant Calls" >Discover Cloudant Calls</a>
+</br><b><u>Hazelcast</u></b>
+<li><a href="testHazelCast" title="TESTING HAZELCAST" >Start HazelCast Instance</a>
+<li><a href="startHazelClient" title="STARTING HAZEL CLIENT" >Start HazelCast Client</a>
+<!--<li><a href="genericTypeTestService" title="Generic object detection" > call methods with generic signature</a> -->
+</br><b><u>Recursive Call</u></b>
+<li><a href="recursiveCall" title="calls to RecursiveMethodCalls" >Click for Recursive Method Call</a>
+</br><b><u>Cpu Utilization</u></b>
+<li><a href="cputime" title="calls to Cpu Utilization" >Click for Cpu Utilization</a>
+</br><b><u>XA Transaction</u></b>
+<li><a href="XA.jsp" title="calls to XA Transaction Calls">Click for XA Transaction</a>
+</br><b><u>KAFKA</u></b>
+<li><a href="kafkaproducer.jsp" title="calls to Producer Kafka">producer call</a>
+<li><a href="kafkaconsumer.jsp" title="calls to Consumer  Kafka">Consumer call</a>
+</br><b><u>ScheduledThreadCallExectorThreadCall</u></b>
+<li><a href="scheduleThread.jsp" title="calls for schedule thread callout">Thread call</a>
+
+<!-- </br><b><u>POST Request</u></b>
+<li><a href="form.html" title="calls to Cpu Post Request">Click for Send POST Request</a> -->
+</ul>
+</body>
+</html>

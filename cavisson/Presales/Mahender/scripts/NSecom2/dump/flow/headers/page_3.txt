@@ -1,0 +1,30 @@
+--Request 
+GET https://184.105.48.12/nsecom/productPage?productid=Shirt001&upc=ShirtUPC11111&prodImage=shirt1.png&prodPrice=19.99
+Host: 184.105.48.12
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://184.105.48.12/nsecom/searchProduct?keyword=shirts
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: no-store
+strict-transport-security: max-age=0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self';
+expect-ct: max-age=0
+header5: http:10.10.40.11:7001:nsecom;
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+content-type: text/html;charset=ISO-8859-1
+content-length: 3773
+date: Mon, 14 Mar 2022 13:15:24 GMT
+----
+

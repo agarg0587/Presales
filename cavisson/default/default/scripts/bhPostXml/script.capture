@@ -1,0 +1,51 @@
+main()
+{
+  int next_page, think_time;
+//Define Any NS Variables here. Do not remove or modify this line
+//nsl_static_var(Test1, Test3/18, FILE=Data6M,REFRESH=SESSION, MODE=RANDOM);
+nsl_decl_var (UUID};
+nsl_decl_var (Uname};
+nsl_decl_var (IPaddr};
+nsl_decl_var (CID1);
+nsl_decl_var (CID2);
+
+//Fllowing are for internal use
+nsl_decl_var (Bnum);
+nsl_decl_var (TestCase);
+nsl_decl_var (CaseLoop);
+
+nsl_search_var(reqid, PAGE=class1_0_html, LB="requestId&gt;", RB="&lt;/requestId");
+nsl_search_var(scookie, PAGE=class1_0_html, LB="secureCookie&gt;", RB="&lt;/secureCookie");
+nsl_search_var(dcookie, PAGE=class1_0_html, LB="digitalCookie&gt;", RB="&lt;/digitalCookie");
+//nsl_xml_var(reqid, PAGE=class1_0_html, NODE=<Envelope><Body><executeResponse><executeReturn><FingerPrintResponse><requestId>, VALUE=<>);
+//nsl_xml_var(scookie, PAGE=class1_0_html, NODE=<Envelope><Body><executeResponse><executeReturn><FingerPrintResponse><secureCookie>, VALUE=<>);
+//nsl_xml_var(dcookie, PAGE=class1_0_html, NODE=<Envelope><Body><executeResponse><executeReturn><FingerPrintResponse><digitalCookie>, VALUE=<>);
+//nsl_xml_var(stvar, PAGE=class1_0_html, NODE=<Envelope><Body><nems><pHCRequest><header><NASId>, VALUE=<qua>, WHERE=<type>="xsd:string2", WHERE=<>="f8:da", ORD=1);
+
+//          URL=http://127.0.0.1/file_set/dir00000/class2_0.html,
+//          URL=http://192.168.63.17:9091/faadmin/services,
+//End of NS Variable decalarations. Do not remove or modifify this line
+
+  next_page = init_script();
+
+  while(next_page != -1) {
+    switch(next_page) {
+      case class1_0_html:
+        think_time = pre_page_class1_0_html();
+        web_url (class1_0_html,
+          METHOD=POST,
+          URL=http://192.168.63.15:8080/fahost/services,
+	  HEADER=Content-Type: application/soap+xml; charset=utf-8,
+	  HEADER=SOAPAction: "",
+	  BODY=$CAVINCLUDE$=soap.txt,
+          NUM_EMBED=0);
+        next_page = check_page_class1_0_html();
+        break;
+
+      default:
+        next_page = -1;
+    }
+    do_think(think_time);
+  }
+  exit_script();
+}

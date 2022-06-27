@@ -1,0 +1,117 @@
+
+
+<link rel="stylesheet" href="/nsecom/css/style.css" type="text/css" />
+
+<html>
+
+    <body bgcolor='#E6E6FA' LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+    <form name="frmMain" method="get">
+    <table border =0 width=100%>
+    <tr><td>
+    
+    <tr>
+      <td width = "10%" align="center" valign="top">
+        <img src="/nsecom/images/logo.png" width="140" height="30" />
+      </td>
+    </tr>
+    
+    <table border=0 width=60% align=center>
+      <tr><br/>
+        <td width=45% align=right><img src="/nsecom/images/nsecomlogo.png"></td>
+        <td width=10%><input type=text style='font-size:16px;'name='keyword' /></td>
+        <td width=45%><input type=submit value='search' onclick="validateKeyword();">  
+      </tr>
+    </table>
+    </td></tr>
+    <tr><td>
+    <table border=0 width=60% align=center>
+    <tr><td  align=center>
+    <div id='navcontainer' align=center>
+    
+    <ul >
+    <li ><a href='#'>&nbsp;&nbsp;Gift Shop&nbsp;&nbsp;</a></li>
+    <li><a href='#'>&nbsp;Women&nbsp;</a></li>
+    <li><a href='#'>&nbsp;&nbsp;Men&nbsp;&nbsp;</a></li>
+    <li><a href='#'>&nbsp;&nbsp;Shoes&nbsp;&nbsp;</a></li>
+    <li><a href='#'>&nbsp;&nbsp;Home Accents&nbsp;&nbsp;</a></li>
+    <li><a href='#'>&nbsp;New Items&nbsp;</a></li>
+    </ul>
+    
+    </div>
+    </td></tr>
+    <table>
+    </td></tr>
+    </table>
+    <form>
+    </form>
+    </body>
+    </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSEcom Order status</title>
+<body>
+	
+
+	<tr>
+		<td width=100%><br />
+		<br />
+
+			<table class=table bgcolor='#ffffff' style='border-color: 5B88C0'
+				width=60% cellspacing=0 cellpadding=0 align=center>
+				<tr>
+					<td><table border=0 bgcolor='#ffffff' width=60% cellspacing=0
+							cellpadding=0 align=center>
+							<tr>
+								<td>&nbsp;&nbsp;</td>
+							</tr>
+							<td>&nbsp;&nbsp;</td>
+							</tr>
+							<tr>
+								<td align=center
+									style='font-size: 25px; color: #5B88C0; font-weight: bold; text-align: center'>
+									 Your order has been placed.<br>Order
+									number is 8889. 
+
+								</td>
+							</tr>
+							<td>&nbsp;&nbsp;</td>
+							</tr>
+							<td>&nbsp;&nbsp;</td>
+							</tr>
+							<td>&nbsp;&nbsp;</td>
+							</tr>
+						</table></td>
+				</tr>
+			</table></td>
+	</tr>
+	</table>
+</body>
+<script type="text/javascript"  src="/nsecom/js/validate.js"></script>
+
+<html>
+<body>
+<table width="99%"  border="0" cellspacing="0" cellpadding="0">
+<br>
+<HR>
+  <tr>
+       <td>
+            <center>Copyright &copy; 2013, Cavisson Systems Inc. All rights reserved.</center>
+       </td>
+  </tr>
+  
+  <tr>
+      <td>&nbsp;</td>
+  </tr>
+  
+</table>
+</form>
+</body>
+</html>
+
+</html>

@@ -1,0 +1,9 @@
+0:Start
+1:Start|Nsecom
+2:Start|Nsecom|index
+3:Start|Nsecom|home
+4:Start|Nsecom|searchProduct
+5:Start|Nsecom|productPage
+6:Start|Nsecom|addToBag
+7:Start|Nsecom|shippingAddress
+8:Start|Nsecom|checkOut

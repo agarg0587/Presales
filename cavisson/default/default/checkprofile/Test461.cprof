@@ -1,0 +1,9 @@
+Profile_Last_Updated_By = Govind
+Profile_Last_Updated_On = 7/4/2022 13:3:27
+Profile_Description = Test461
+Test_Run_Number = 1132
+Prod = false
+Stress = false
+# Rule|Rule Id|Rule Name|Rule Type|Graph Definition|% Change|Expected Result|State|Last Updated By|Last Updated On|Future1|Future2|Future3|Future4|Future5|Rule Description|Production Value|Stress Value
+#if keyword is not enabled , prod and stress values will show '0.0'
+Rule|1|Transactions_Rule|Check Rules|Avg (6.7.All) < 2|50|Pass|Yes|Govind|7/4/2022 13:3:27|-|-|-|-|-|Average Transactions Started/Second|0.0|0.0|Avg (6.7.All) < 2

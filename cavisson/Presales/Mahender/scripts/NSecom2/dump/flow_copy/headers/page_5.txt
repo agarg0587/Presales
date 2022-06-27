@@ -1,0 +1,61 @@
+--Request 
+GET https://184.105.48.12/nsecom/shippingAddress?productid=NA&upc=ShirtUPC11111&size=2&color=blue&quantity=1&price=19.99&status=true&cartId=Cart20220314011529810
+Host: 184.105.48.12
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://184.105.48.12/nsecom/addToBag?size=2&productid=NA&price=19.99&upc=ShirtUPC11111&prodImage=shirt1.png&quantity=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: CARTID=Cart20220314011529810
+----
+--Response 
+HTTP/1.1 200
+cache-control: no-store
+strict-transport-security: max-age=0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self';
+expect-ct: max-age=0
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+content-type: text/html;charset=ISO-8859-1
+content-length: 3787
+date: Mon, 14 Mar 2022 13:15:31 GMT
+----
+--Request 
+GET https://184.105.48.12/nsecom/images/logo.png
+Host: 184.105.48.12
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://184.105.48.12/nsecom/shippingAddress?productid=NA&upc=ShirtUPC11111&size=2&color=blue&quantity=1&price=19.99&status=true&cartId=Cart20220314011529810
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: CARTID=Cart20220314011529810
+----
+--Response 
+HTTP/1.1 200
+cache-control: private
+strict-transport-security: max-age=0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self';
+expect-ct: max-age=0
+accept-ranges: bytes
+etag: W/\"7404-1637740090000\"
+last-modified: Wed, 24 Nov 2021 07:48:10 GMT
+content-type: image/png;charset=UTF-8
+content-length: 7404
+date: Mon, 14 Mar 2022 13:15:32 GMT
+----
+

@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../../include/ns_string.h"
+#include "script.h"
+
+int init_script() {
+
+	return class1_0_html;
+}
+
+int pre_page_class1_0_html(void) {
+   ns_save_string (ns_get_guid(), "UUID");
+   return NS_USE_CONFIGURED_THINK_TIME;
+}
+
+int check_page_class1_0_html(void) {
+       char *ptr;
+
+#if 0
+        printf ("Test2 is %s\n", ns_eval_string("{Test2}"));
+        ptr = ns_eval_string("{stvar}");
+        if (!ptr) {
+                printf("Could not get value of stvar\n");
+        } else {
+                printf("Value of stvar is %s\n", ptr);
+        }
+
+        printf ("Saving %s returns %d \n", ptr, ns_save_string(ptr, "Test2"));
+        printf ("Updated Test2 is %s\n", ns_eval_string("{Test2}"));
+        ptr = ns_eval_string("{stvar}");
+        ns_save_string(ptr, "Test3");
+#endif
+        printf ("UUID is %s\n", ns_eval_string("{UUID}"));
+        printf ("reqid is %s\n", ns_eval_string("{reqid}"));
+        printf ("scookie is %s\n", ns_eval_string("{scookie}"));
+        printf ("dcookie is %s\n", ns_eval_string("{dcookie}"));
+        return -1;
+
+}
+
+void exit_script() {
+	return;
+}

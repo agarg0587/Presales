@@ -1,0 +1,8 @@
+REPORT_AS_ATTACHMENT 0
+MAIL_TO 
+MAIL_CC 
+MAIL_BCC 
+MAIL_BODY Team,
+Enclosed is the report for Test Suite run.
+Regards
+Cavisson Team

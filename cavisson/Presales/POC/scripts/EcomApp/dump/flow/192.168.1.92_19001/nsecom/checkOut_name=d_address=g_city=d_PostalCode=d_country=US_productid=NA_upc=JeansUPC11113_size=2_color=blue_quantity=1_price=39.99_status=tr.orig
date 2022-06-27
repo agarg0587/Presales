@@ -1,0 +1,46 @@
+<html>
+<head><title>NSEcom Order status</title>
+ <style>
+#navcontainer ul { align:left; margin: 0; padding: 0; list-style-type: none; text-align: center; }
+#navcontainer ul li { display: inline; }
+ #navcontainer ul li a { text-decoration: none; padding: .2em 1em; color: #fff; background-color: #5B88C0;  }
+ #navcontainer ul li a:hover {   color: #fff;  background-color: #B75A00; }
+.table  {  border-top:2px solid #BCD0EF; border-left:1px solid #BCD0EF; border-bottom:1px solid #BCD0EF;  border-right:1px solid #BCD0EF; font-size:10px; color:blue;}
+</style></head>
+<body bgcolor='#E6E6FA' LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<table border =0 width=100%>
+<tr><td> <form name='frmMain1' method='get' action='searchProduct' >
+<table border=0 width=60% align=center>
+<tr><br/>
+ <td width=40% align=right><img src='images/nsecomlogo.png'></td>
+ <td width=20%><input type=text style='font-size:16px;'name='keyword' /></td>
+ <td width=40%><input type=submit  value="search">
+  </tr>
+ </table>
+ </form>
+</td></tr>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><td  align=left>
+<div id='navcontainer' align=left >
+ <ul >
+<li ><a href='#'>&nbsp;&nbsp;Gift Shop&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;Women&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Men&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Shoes&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Home Accents&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;New Items&nbsp;</a></li>
+</ul>
+ </div>
+</td></tr>
+ </table>
+</td></tr>
+<tr><td width =100%> <br/><br/>
+<table class=table bgcolor='#ffffff' style='border-color:5B88C0' width=60% cellspacing=0 cellpadding = 0 align=center><tr><td><table border=0 bgcolor='#ffffff' width=60% cellspacing=0 cellpadding = 0 align=center><tr><td>&nbsp;&nbsp;</td></tr><td>&nbsp;&nbsp;</td></tr><tr><td align=center  style = 'font-size:25px; color: #5B88C0; font-weight: bold; text-align:center'>
+ Your order has been placed.<br>Order number is 5064.
+</td></tr><td>&nbsp;&nbsp;</td></tr><td>&nbsp;&nbsp;</td></tr><td>&nbsp;&nbsp;</td></tr></table></td></tr></table>
+ </td></tr>
+ </table>
+</body>
+ </html>
+

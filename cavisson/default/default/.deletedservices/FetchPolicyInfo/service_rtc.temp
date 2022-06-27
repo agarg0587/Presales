@@ -1,0 +1,21 @@
+
+#User = ****|Directory = capturedRRFiles1656316717718|Template=PersAutoPolicyAddRq
+
+URL /webservices/getpolicyinfo
+
+#PersAutoPolicyAddRq /webservices/getpolicyinfo
+
+RESPONSE_TEMPLATE PersAutoPolicyAddRq Simulate NA service_PersAutoPolicyAddRq active SOAPOperation(String) = "PersAutoPolicyAddRq"
+
+SVC_TIME 2 300
+
+
+nsl_xml_var (Envelope_Body_PersAutoPolicyAddRq_Policy_PolicyNumber, NODE=<soap:Envelope><soap:Body><PersAutoPolicyAddRq><Policy><PolicyNumber>, VALUE=<>, ORD=ALL, BodySkipStartBytes=0, BodySkipEndBytes=0);
+nsl_xml_var (Envelope_Header_sessionid, NODE=<soap:Envelope><soap:Header><sessionid>, VALUE=<>, ORD=ALL, BodySkipStartBytes=0, BodySkipEndBytes=0);
+nsl_search_var (SOAPOperation, LB/RE="(<[0-9a-zA-Z]+:|<)Body>\s*(<[0-9a-zA-Z]+:|<)", RB/RE="(\s|>)", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
+
+
+nsl_static_var (AddressLine,City,State,Zipcode, FILE=CstAddress.txt, REFRESH=USE,MODE=SEQUENTIAL, FirstDataLine=2, ColumnDelimiter=,, HeaderLine=1, IgnoreInvalidDataLine=YES);
+
+TEMPLATE_BASED_STATUS_CODE PersAutoPolicyAddRq 200 OK
+RESPONSE_TEMPLATE SOAPFault Simulate NA service_SOAPFault active NA

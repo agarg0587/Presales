@@ -1,0 +1,18 @@
+{
+   "Body": {
+      "InquiryResponse": {
+         "InquiryResponse": {
+            "result": "APPROVED",
+            "approvalCode": "00000000",
+            "originInfo": {
+               "division": "78",
+               "storeNbr": "53",
+               "origTransDateCCYYMMDD": "2020-02-14",
+               "origTransTimeHHMMSS": "2020-02-14",
+               "uniqueId": "{uniqueID}"
+            },
+            "balanceRemaining": "500"
+         }
+      }
+   }
+}

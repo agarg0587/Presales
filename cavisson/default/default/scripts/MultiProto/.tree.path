@@ -1,0 +1,11 @@
+0:Block1
+1:Block1|(pct=75.0%)S01_Https
+2:Block1|(pct=75.0%)S01_Https|index_html
+3:Block1|(pct=75.0%)S01_Https|login
+4:Block1|(pct=75.0%)S01_Https|reservation
+5:Block1|(pct=75.0%)S01_Https|findflight
+6:Block1|(pct=75.0%)S01_Https|findflight_2
+7:Block1|(pct=75.0%)S01_Https|findflight_3
+8:Block1|(pct=75.0%)S01_Https|welcome
+9:Block1|(pct=25.0%)S02_Ftp
+10:Block1|(pct=25.0%)S02_Ftp|Get

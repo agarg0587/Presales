@@ -1,0 +1,94 @@
+<!-- Netstorm GUI4  -->
+<html>
+<head><title>Page Response Snapshots for recorded script</title></head>
+<!-- Title of the screen -->
+  <link rel="stylesheet" href="/netstorm/css/Netstorm.css" type="text/css" /link>
+  <script language="javascript">
+
+    function showRecordedPageOnFrame(url)
+    {
+      parent.Dump.location = url;
+    }
+    //These functions highlight the row when we pass/hover on current row
+    function over(row)
+    {
+      row.oldBackgroundColor = row.style.backgroundColor;
+      row.style.backgroundColor = 'FFFFCC';
+    }
+
+    function out(row)
+    {
+      row.style.backgroundColor = row.oldBackgroundColor;
+    }
+
+    function highLightRow(rowId)
+    {
+      var newElement = document.getElementById(rowId);
+      if(typeof(oldElement)!='undefined'){
+        oldElement.style.backgroundColor = oldElement.oldBackgroundColor;}
+      newElement.oldBackgroundColor = newElement.style.backgroundColor;
+      newElement.style.backgroundColor = "#FFCC00";
+      oldElement = newElement;  } 
+</script>
+</head>
+<body onLoad=showRecordedPageOnFrame('./Snapshots/webpage_1364217345650.png');highLightRow('0');>
+  <form id="form1" name="form1" method="post" action="">
+       <table border="0" bordercolor= red cellpadding=0 cellspacing=0 style = "width:100%;height:60px;background-color:#F2F2F2;background-repeat:repeat-x;" height=20><tr><td width=15% align=left valign=middle><table width = 100%><tr><td width = 100%><img src=/netstorm/images/logo.png></td></tr></table></td><td width = 85% align=center valign=middle><table border=0 bordercolor= green width=100% cellpadding=0 cellspacing=0><tr><td align=center class=screenTitle>Script Page Snapshots - NetDiagnostic/Weblogic/nsecom_new</td></tr></table></td></tr></table> 
+       <table border='0' bordercolor= blue cellpadding=0 cellspacing=0 id=text>
+       <tr><td align=center>
+       <br /><br /></table>
+       <table border=0 bordercolor= yellow cellpadding=0 cellspacing=0 class=table width=98% align=center max-width=1200px>
+       <tr><td colspan=2 align=center valign=top>
+       <table width =100% border=0 bordercolor= brown  align =center cellpadding =0 cellspacing =0 id=tableForNSBrowser style="width:100%; display;">
+       <tr align=center class=tableHeader>
+       <td height=20 width = 20%><b>Page Number</b></td>
+       <td align = left width = 20%><b>&nbsp;Page Name</b></td>
+       <td align = left width = 25%><b>&nbsp;SnapShotBeforAction</b></td>
+       <td align = left width = 25%><b>&nbsp;SnapShotAfterAction</b></td>
+ <tr align="center" class="tableRowOdd" id ='0'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./headers/page_1.txt')>01</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/index')>index_4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217345479.png')>webpage_1364217345479.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('0');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217345650.png')>webpage_1364217345650.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='1'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./headers/page_2.txt')>02</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/jsp/HomePage.jsp')>HomePage_jsp_10</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217348879.png')>webpage_1364217348879.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('1');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217349098.png')>webpage_1364217349098.png</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='2'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./headers/page_3.txt')>03</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/SearchProductServlet_keyword=pants')>SearchProductServlet_5</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217351999.png')>webpage_1364217351999.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('2');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217352467.png')>webpage_1364217352467.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='3'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./headers/page_4.txt')>04</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/ProductPageServlet_productid=Pant006_upc=PantUPC11116_prodImage=pants6.png_prodPrice=69.99')>ProductPageServlet_4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217353887.png')>webpage_1364217353887.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('3');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217354324.png')>webpage_1364217354324.png</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='4'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./headers/page_5.txt')>05</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/AddToBagServlet_size=2_productid=Pant006_price=69.99_upc=PantUPC11116_prodImage=pants6.png_quantity=2')>AddToBagServlet_4</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217356633.png')>webpage_1364217356633.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('4');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217357023.png')>webpage_1364217357023.png</a></span></td>
+ <tr align="center" class="tableRowEven" id ='5'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./headers/page_6.txt')>06</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/jsp/ShippingPage.jsp_productid=Pant006_upc=PantUPC11116_size=2_color=blue_quantity=2_price=139.98_status=true_cartId=Cart20130325064')>ShippingPage_jsp_2</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217357849.png')>webpage_1364217357849.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('5');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217358208.png')>webpage_1364217358208.png</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='6'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./headers/page_7.txt')>07</a></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./192.168.1.86_19001/nsecom/CheckOutServlet_name=g_address=h_city=d_PostalCode=s_country=India_productid=Pant006_upc=PantUPC11116_size=2_color=blue_quantity=2_p')>CheckOutServlet_2</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217364277.png')>webpage_1364217364277.png</a></span></td>
+<td valign =" middle" align = left><span onClick = highLightRow('6');>&nbsp;<a href=javascript:showRecordedPageOnFrame('./Snapshots/webpage_1364217364651.png')>webpage_1364217364651.png</a></span></td>
+ </td></tr>
+ </table>
+ </table>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <br>
+<br>
+<tr>
+ </table>
+<br/>
+</form>
+</body>
+</html>

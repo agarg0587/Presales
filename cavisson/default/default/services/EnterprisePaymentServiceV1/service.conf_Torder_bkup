@@ -1,0 +1,17 @@
+
+URL /pos/EnterprisePaymentServices
+
+TEMPLATE_BASED_SVC_TIME  2 250
+nsl_search_var (Version, LB="X-Payment-experimentation:", RB="\r\n", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=HEADER);
+nsl_search_var (RequestType, LB="RequestType\": \"", RB="\"", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
+nsl_random_number_var (AssignPct, Min=0, Max=100, Format=%01lu, Refresh=USE);
+SVC_TIME 3 200 300
+#HPD_DEBUG_TRACE 2
+RESPONSE_TEMPLATE AssociateAccount Simulate NA service_AssociateAccount.ajson active RequestType(String) = "Association" AND Version(String) = "V1"
+RESPONSE_TEMPLATE AssociateAccountV2 Simulate NA service_AssociateAccountV2 active Version(String) = "V2" AND RequestType(String) = "Association"
+RESPONSE_TEMPLATE AssociateAccountV3 Simulate NA service_AssociateAccountV3 active Version(String) = "V3" AND RequestType(String) = "Association"
+RESPONSE_TEMPLATE ViewBalanceFwd Forward http:172.106.164.33:80 service_ViewBalanceFwd active RequestType(String) = "ViewBalance" AND Version(String) != "V1"
+RESPONSE_TEMPLATE AuthorizePayment Simulate NA service_AuthorizePayment active RequestType(String) = "AuthorizePayment" AND AssignPct < 70
+RESPONSE_TEMPLATE ViewBalance Simulate NA service_ViewBalance active RequestType(String) = "ViewBalance" AND Version(String) = "V1"
+TEMPLATE_BASED_STATUS_CODE ViewBalance 200 OK
+nsl_unique_number_var (uniqueID, Format=%01lu, Refresh=SESSION);

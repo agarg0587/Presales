@@ -1,0 +1,203 @@
+{
+    "returnCode": "1",
+    "returnMessage": "SUCCESS",
+    "itemList": [
+        {
+            "lineNumber": 1,
+            "upcNumber": 719812261911,
+            "quantityAdjusted": 1,
+            "unitPrice": 0,
+            "shipdetails": [
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "3"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "2"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "1"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "W"
+                }
+            ],
+            "deliveryDetails": [
+                {
+                    "estimatedArrivalDate": "05/29/2018",
+                    "deliveryDays": "5",
+                    "deliveryInd": "C",
+                    "deliveryType": "3"
+                },
+                {
+                    "estimatedArrivalDate": "05/27/2018",
+                    "deliveryDays": "3",
+                    "deliveryInd": "C",
+                    "deliveryType": "2"
+                },
+                {
+                    "estimatedArrivalDate": "05/26/2018",
+                    "deliveryDays": "2",
+                    "deliveryInd": "C",
+                    "deliveryType": "1"
+                },
+                {
+                    "estimatedArrivalDate": "05/29/2018",
+                    "deliveryDays": "5",
+                    "deliveryInd": "C",
+                    "deliveryType": "W"
+                }
+            ],
+            "giftMessageSupportForDrop": false,
+            "dropVendorNumber": 0,
+            "fulfillmentLocations": [
+                {
+                    "filLocationNumber": 6230,
+                    "locationType": "PS",
+                    "locationreturnCode": "SP",
+                    "orderMethod": "POOL",
+                    "shipMethodOptions": "1",
+                    "fillStore": 852,
+                    "quantityAllocated": 0,
+                    "refurbishPutAway": 0,
+                    "totalAvailableToSell": 88,
+                    "filDivison": "71"
+                }
+            ],
+            "discontinueFlag": "false",
+            "productGroupCode": "KITCH2",
+            "dropShipMethods": "",
+            "sameSkuUpcFlag": false,
+            "giftRegistryEligible": true,
+            "giftCatId": 13,
+            "giftCatDescription": "HOUSEWARES ACCESSORIES",
+            "giftMessageSupplyFlag": true,
+            "divisionDefinedFlag": true,
+            "instoreEligibilityFlag": true,
+            "ngfProductCode": 5,
+            "ngfProductDate": "9999-12-30",
+            "clearance": false,
+            "giftWrapAvailable": true,
+            "partialFulfilled": false
+        },
+        {
+            "lineNumber": 2,
+            "upcNumber": 719812280813,
+            "quantityAdjusted": 1,
+            "unitPrice": 0,
+            "shipdetails": [
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "3"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "2"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "1"
+                },
+                {
+                    "shipDate": "06/01/2018",
+                    "shipDays": "7",
+                    "shipIndicator": "C",
+                    "deliveryType": "W"
+                },
+                {
+                    "shipDate": "05/25/2018",
+                    "shipDays": "0",
+                    "shipIndicator": "C",
+                    "deliveryType": "6",
+                    "pickUpDateTime": "2018-05-25 11.00.00.000"
+                }
+            ],
+            "deliveryDetails": [
+                {
+                    "estimatedArrivalDate": "05/29/2018",
+                    "deliveryDays": "5",
+                    "deliveryInd": "C",
+                    "deliveryType": "3"
+                },
+                {
+                    "estimatedArrivalDate": "05/27/2018",
+                    "deliveryDays": "3",
+                    "deliveryInd": "C",
+                    "deliveryType": "2"
+                },
+                {
+                    "estimatedArrivalDate": "05/26/2018",
+                    "deliveryDays": "2",
+                    "deliveryInd": "C",
+                    "deliveryType": "1"
+                },
+                {
+                    "estimatedArrivalDate": "05/29/2018",
+                    "deliveryDays": "5",
+                    "deliveryInd": "C",
+                    "deliveryType": "W"
+                }
+            ],
+            "giftMessageSupportForDrop": false,
+            "dropVendorNumber": 0,
+            "fulfillmentLocations": [
+                {
+                    "filLocationNumber": 6241,
+                    "locationType": "PS",
+                    "locationreturnCode": "SM",
+                    "orderMethod": "POOL",
+                    "shipMethodOptions": "1",
+                    "fillStore": 846,
+                    "quantityAllocated": 0,
+                    "refurbishPutAway": 0,
+                    "totalAvailableToSell": 173,
+                    "filDivison": "71"
+                },
+                {
+                    "filLocationNumber": 5494,
+                    "locationType": "STR",
+                    "locationreturnCode": "SX",
+                    "orderMethod": "STR1",
+                    "shipMethodOptions": "15",
+                    "fillStore": 810,
+                    "quantityAllocated": 0,
+                    "refurbishPutAway": 0,
+                    "totalAvailableToSell": 10,
+                    "filDivison": "71"
+                }
+            ],
+            "discontinueFlag": "false",
+            "productGroupCode": "KITCHN",
+            "dropShipMethods": "",
+            "sameSkuUpcFlag": false,
+            "giftRegistryEligible": true,
+            "giftCatId": 13,
+            "giftCatDescription": "HOUSEWARES ACCESSORIES",
+            "giftMessageSupplyFlag": true,
+            "divisionDefinedFlag": true,
+            "instoreEligibilityFlag": true,
+            "ngfProductCode": 5,
+            "ngfProductDate": "9999-12-30",
+            "clearance": false,
+            "giftWrapAvailable": true,
+            "partialFulfilled": false
+        }
+    ]
+}

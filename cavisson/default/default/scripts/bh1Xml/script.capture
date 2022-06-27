@@ -1,0 +1,45 @@
+main()
+{
+  int next_page, think_time;
+//Define Any NS Variables here. Do not remove or modify this line
+//nsl_static_var ( Uname, Acode, Devnum, IPaddr, FILE=/home/netstorm/work/sys/b.dat, MODE=SEQUENTIAL, REFRESH=SESSION);
+//Send following in request
+nsl_decl_var (Uname);
+nsl_decl_var (UUID);
+nsl_decl_var (IPaddr);
+nsl_decl_var (CID1);
+nsl_decl_var (CID2);
+
+//Following for internal use
+nsl_decl_var (Bnum);
+nsl_decl_var (TestCase);
+nsl_decl_var (CaseLoop);
+
+nsl_xml_var(Cook1, PAGE=class1_0_html, NODE=<Envelope><Body><nems><pHCRequest><header><NASId>, VALUE=<qua>, WHERE=<type>="xsd:string2", WHERE=<>="f8:da", ORD=1);
+nsl_xml_var(Cook2, PAGE=class1_0_html, NODE=<Envelope><Body><nems><pHCRequest><header><NASId>, VALUE=<>);
+
+//End of NS Variable decalarations. Do not remove or modifify this line
+
+  next_page = init_script();
+
+  while(next_page != -1) {
+    switch(next_page) {
+      case class1_0_html:
+        think_time = pre_page_class1_0_html();
+        web_url (class1_0_html,
+          METHOD=GET,
+          URL=http://127.0.0.1/hb-sample.xml,
+          HEADER=Accept-Language: en-us,en;q=0.5,
+          HEADER=Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7,
+	  HEADER=A1: {Uname}, {UUID}, {IPaddr}, {CID1}, {CID2},
+          NUM_EMBED=0);
+        next_page = check_page_class1_0_html();
+        break;
+
+      default:
+        next_page = -1;
+    }
+    do_think(think_time);
+  }
+  exit_script();
+}

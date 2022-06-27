@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <AccountSummary>
+      <REQ_MSG_HEADER_AREA>
+      <REQ_LOGIN>David</REQ_LOGIN>
+      </REQ_MSG_HEADER_AREA>
+      <REQUEST_VAR>
+      <REQ_TYPE>AccountSummary</REQ_TYPE>
+      <USER_ACCOUNT>David</USER_ACCOUNT>
+      </REQUEST_VAR>
+    </AccountSummary>
+  </soap:Body>
+</soap:Envelope>

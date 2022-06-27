@@ -1,0 +1,14 @@
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header
+        xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+        <soap:Body>
+            <ns2:getUYCResponse
+                xmlns:ns5="http://input.pricing.macys.com"
+                xmlns:ns4="http://output.pricing.macys.com"
+                xmlns:ns3="http://www.macys.com/enterprise_services"
+                xmlns:ns2="http://v4.services.pe.macys.com">
+                <UYC>00000000000500050000</UYC>
+            </ns2:getUYCResponse>
+        </soap:Body>
+    </soap:Envelope>

@@ -1,0 +1,5 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+smtp_seesion1|Main|-1|testing@cavisson.com|testing@cavisson.com|NA|0|NA||NA|NA|0|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+smtp_session2|Main|-1|192.168.1.36:25|192.168.1.36:25|NA|0|NA||NA|NA|0|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA

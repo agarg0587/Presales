@@ -1,0 +1,19 @@
+POST /api/v2/merchants/payment HTTP/1.1
+
+{
+    "amount": {
+        "amount": 10.50,
+        "currency": "USD"
+    },
+    "autoCapture": true,
+    "paymentMethodId": 1,
+    "PayPalWallet": {
+        "Balance": 956.23,
+        "WalletID": "UX876QAC"
+    },
+  "CreditCardInfo": {
+  "CreditCardAuthorized": "true",
+    "expiry": "Feb 2032"
+  },
+    "transactionChannel": "Web Online"
+}

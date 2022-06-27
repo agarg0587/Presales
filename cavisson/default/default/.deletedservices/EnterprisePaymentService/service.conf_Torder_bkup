@@ -1,0 +1,19 @@
+
+URL /pos/EnterprisePaymentServices 
+
+nsl_search_var (RequestType, LB="\"RequestType\": \"", RB="\"", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
+nsl_unique_number_var (uniqueID, Format=%01lu, Refresh=SESSION);
+nsl_random_number_var (AssignPct, Min=0, Max=10, Format=%01lu, Refresh=USE);
+nsl_search_var (Version, LB="\"Version\":\"", RB="\"", ORD=1, SaveOffset=0, SaveLen=0, Method=NONE, IgnoreCase=No, Search=BODY);
+TEMPLATE_BASED_STATUS_CODE EPSDefaultResp 200 OK
+TEMPLATE_BASED_STATUS_CODE ViewBalance 200 OK
+TEMPLATE_BASED_STATUS_CODE AuthorizePayment 200 OK
+TEMPLATE_BASED_STATUS_CODE AuthorizePayment5xx 503 Service Unavailable
+RESPONSE_TEMPLATE ViewBalance Simulate NA service_ViewBalance.ajson active RequestType(String) = "ViewBalance" AND Version(String) = "V1"
+RESPONSE_TEMPLATE ViewBalanceFwd Forward http:66.220.31.131:80 service_ViewBalanceFwd active RequestType(String) = "ViewBalance" AND Version(String) != "V1"
+RESPONSE_TEMPLATE AuthorizePayment Simulate NA service_AuthorizePayment.ajson active RequestType(String) = "AuthorizePayment" AND AssignPct <= 7
+RESPONSE_TEMPLATE AuthorizePayment5xx Simulate NA service_AuthorizePayment5xx active RequestType(String) = "AuthorizePayment" AND AssignPct > 7
+RESPONSE_TEMPLATE EPSDefaultResp Simulate NA service_EPSDefaultResp.ajson active NA
+RESPONSE_TEMPLATE AssociateAccountV2 Simulate NA service_AssociateAccountV2.ajson active RequestType(String) = "Association" AND Version(String) = "V2"
+RESPONSE_TEMPLATE AssociateAccountV3 Simulate NA service_AssociateAccountV3.ajson active RequestType(String) = "Association" AND Version(String) = "V3"
+RESPONSE_TEMPLATE AssociateAccount Simulate NA service_AssociateAccount.ajson active RequestType(String) = "Association" AND Version(String) = "V1"

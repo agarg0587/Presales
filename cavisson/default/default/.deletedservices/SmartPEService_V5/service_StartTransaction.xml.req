@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v4="http://v4.services.pe.macys.com">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <!--Optional:-->
+         
+         <version>4.0</version><client_id>MCOM</client_id>
+         <subclient_id>iShop_Android</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v4:startTransaction>
+         <divisionID>71</divisionID>
+         <storeID>408</storeID>
+         <!--Optional:-->
+         
+         <returnDeltas>true</returnDeltas>
+      </v4:startTransaction>
+   </soapenv:Body>
+</soapenv:Envelope>

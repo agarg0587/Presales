@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope>
+   <soap:Header>
+      <userid>fgts76o28573</userid>
+      <sessionid>590249-ghskor-256-2022</sessionid>
+   </soap:Header>
+   <soap:Body>
+      <fetchOrderDetailsOutV2>
+         <Order>
+            <EnterpriseCode>00001</EnterpriseCode>
+            <OrderNo>2019094131002462</OrderNo>
+            <SourceSystem>CSCR</SourceSystem>
+            <IsGuestAccount>N</IsGuestAccount>
+            <ProfileID>{x-account-id}</ProfileID>
+            <SourceSystem>CCA</SourceSystem>
+         </Order>
+      </fetchOrderDetailsOutV2>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,11 @@
+main()
+{
+  int next_page, think_time;
+//Define Any NS Variables here. Do not remove or modify this line
+
+//End of NS Variable declarations. Do not remove or modify this line
+
+  next_page = init_script();
+
+  while(next_page != -1) {
+    switch(next_page) {

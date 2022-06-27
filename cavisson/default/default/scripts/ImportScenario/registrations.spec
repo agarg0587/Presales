@@ -1,0 +1,10 @@
+nsl_json_var(token, PAGE=Login, ORD=1, OBJECT_PATH="root.token", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_url, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.url", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_key, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.key", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_x-amz-algorithm, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.x-amz-algorithm", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_x-amz-credential, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.x-amz-credential", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_x-amz-date, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.x-amz-date", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_x-amz-security-token, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.x-amz-security-token", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_policy, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.policy", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(attachment_x-amz-signature, PAGE=Get_Attachment_URL, ORD=1, OBJECT_PATH="root.fields.x-amz-signature", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);
+nsl_json_var(incident_number, PAGE=Create_Incident, ORD=1, OBJECT_PATH="root.number", SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=None);

@@ -1,0 +1,17 @@
+diff --git a/core/netstorm/src/monitors/mon_apply_monitors.c b/core/netstorm/src/monitors/mon_apply_monitors.c
+index eb69a16e22..74f83f0cf2 100644
+--- a/core/netstorm/src/monitors/mon_apply_monitors.c
++++ b/core/netstorm/src/monitors/mon_apply_monitors.c
+@@ -820,8 +820,10 @@ int add_new_monitor(MonConfig *monConfigPtr, int tier_idx, int server_idx, char
+     }
+   }
+ 
+-  //add function to check whether it is applied on any server or not If applied then skip the monitor on other server
+-  if(monConfigPtr->gdfFlag & MON_APPLY_ON_ANY_SERVER) {
++  //add function to check whether it is applied on any server or not If applied then skip the monitor on other server.
++  //Adding check for use agent, as we dont want to check for any server in case monitor user agent is LOCAL.
++  //In case of use agent LOCAL similar monitor may be apply on multiple tier or cluster .EX-Kubernetesagentless monitor.
++  if((monConfigPtr->gdfFlag & MON_APPLY_ON_ANY_SERVER) && (monConfigPtr->useAgent != LOCAL)) {
+     if(cm_check_entry_for_any_server(monConfigListPtr, monConfigPtr, tier_idx, server_idx) == JSON_ERROR) {
+       return JSON_ERROR;
+     }

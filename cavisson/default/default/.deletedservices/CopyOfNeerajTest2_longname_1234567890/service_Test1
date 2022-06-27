@@ -1,0 +1,158 @@
+diff --git a/core/base/topology/topolib_v1/topolib_ns_methods.c b/core/base/topology/topolib_v1/topolib_ns_methods.c
+index 9b1e32d9f1..974ef75ee3 100644
+--- a/core/base/topology/topolib_v1/topolib_ns_methods.c
++++ b/core/base/topology/topolib_v1/topolib_ns_methods.c
+@@ -18,9 +18,7 @@
+ #include "topolib_normalization.h"
+ #include "topolib_log.h"
+ 
+-
+ ServerInfo *topo_servers_list = NULL;
+-int generator_server_id = 100000;
+ int total_cmon_servers = 0;
+ int max_cmon_servers = 0;
+ int total_server_table_entries;
+@@ -692,18 +690,26 @@ int topolib_do_origin_cmon_server_entry(char *origin_cmon_name, char *input_serv
+ return 0;
+ }
+ 
+-void topolib_add_generator_entry(char *server_ip, char *server_name,int self_tier_id,int topo_idx,char *err_buf, int flag)
+
+// TODO - Add comments.
+self_tier_id -> tier_id
+Change name 
+  topolib_add_manual_server_in_memory
+  
++void topolib_add_manual_server_entry(char *server_ip, char *server_name, int tier_id, int topo_idx, char *err_buf, int flag)
+ {
+-
+-  char server_buff[128*1024] = {0};
+-  sprintf(server_buff, "%s|%s|%d|%d|1|Y|root|xxx|/usr/bin|/opt/cavisson/moniotrs|N|LinuxEx|0|NA|NA",server_ip, server_name,generator_server_id,self_tier_id);
+-  generator_server_id++;
+-  topolib_fill_server_structure(server_buff, err_buf,topo_idx, flag);
++  char server_buff[128*1024]; // TODO - 1024 + 1
+// TODO - Add comments
+   // For all manual server additions in topology memory, we are starting with a very high server id so that it does not clash with the server id's assigned by // NDC for auto scaled server. Autoscaled servers are added in topology file by NDC and message it send from NDC to CavMain to adding in CavMain memory
+   
++  static int  manual_server_id = 1000000; //TODO - add one more 0
+// TODO - All fields NA
++  sprintf(server_buff, "%s|%s|%d|%d|1|N|NA|NA|NA|NA|N|LinuxEx|0|NA|NA", server_ip, server_name, manual_server_id, self_tier_id);
++  manual_server_id++;
++  topolib_fill_server_structure(server_buff, err_buf, topo_idx, flag);
+ }
+ 
+-
+-
+-
+// TODO - Add comments
+// Return value
+       0 - Already in topology
+       1 - Server added in topology
+       -1 - Error if any (Not currently returnd)
+// TODO - Change name
+    topolib_check_and_add_server_in_memory
+   
++int  topolib_check_and_add_server(int topo_idx, char *server_name, char* display_server_name, int tier_idx)
++{
++  int server_idx = topolib_get_topo_server_idx_from_server_id(server_name, topo_idx, tier_idx);
++  if(server_idx < 0)//If the server does not exist then add it.
++  {
+
+TODO - Use topolib_add_manual_server_in_memory()
+
++    topolib_add_new_server_without_id(topo_info[topo_idx].topo_tier_info[tier_idx].tier_id_tf,
++               topo_info[topo_idx].topo_tier_info[tier_idx].tier_name, 10000, server_name,
++                                     "/opt/cavison/monitors","/usr/bin", "LinuxEx", display_server_name,
++                                            topo_idx, tier_idx);
+     
+    return 1;
++  }
+   return 0;
++}
+ 
+ //KJ: Create topo_server , topo_server_info , server_info
+ 
+diff --git a/core/base/topology/topolib_v1/topolib_structures.h b/core/base/topology/topolib_v1/topolib_structures.h
+index ad43aff8ec..e1fb792314 100644
+--- a/core/base/topology/topolib_v1/topolib_structures.h
++++ b/core/base/topology/topolib_v1/topolib_structures.h
+@@ -631,5 +631,6 @@ extern void topolib_update_disconnected_time(char *tierName, char *serverName, c
+ extern void topolib_set_variable_for_topology_logging_partition_switch(long long partition_idx, int topo_index);
+ extern char match_tier_name_in_tier_conf(int topo_index, char *tierName);
+ int topolib_get_tier_idx_from_tier_id_tf(int tier_id_tf,int topo_idx);
+-void topolib_add_generator_entry(char *server_ip, char *server_name,int self_tier_id,int topo_idx,char *err_buf, int flag);
++void topolib_add_manual_server_entry(char *server_ip, char *server_name,int self_tier_id,int topo_idx,char *err_buf, int flag);
++void topolib_check_and_add_server(int topo_idx, char *server_name, char* display_server_name, int tier_idx);
+ #endif
+diff --git a/core/netstorm/src/monitors/mon_json_parsing.c b/core/netstorm/src/monitors/mon_json_parsing.c
+index 3a2511342c..1795163662 100644
+--- a/core/netstorm/src/monitors/mon_json_parsing.c
++++ b/core/netstorm/src/monitors/mon_json_parsing.c
+@@ -1122,6 +1122,27 @@ static inline void mj_parse_tier_server_array(nslb_jsont *json_tree, char *json_
+       NSDL4_MON(NULL, NULL, "Info: Unwanted tag found in log-mon-name '%s' JSON file: %s\n", node->name, json_file);
+     }
+   }
++
++  // Specific Server
++  // Iterate over tiers and servers and add server if it does not exist
++  if(tierServerPtr->topo_info_flags & MINFO_FLAG_SPECIFIC_SERVER)
++  {
++    int server_idx; // TODO - delete
++    int iter_tier;
++    int iter_server;
++    int tier_idx;
++    
+     TODO - check if tierServerPtr->tier->count != 1
+     {
+        Add erorr log at L1 
+        
+     }
+     else
+     {
++    // for (iter_tier = 0; tierServerPtr->tier && iter_tier < tierServerPtr->tier->count; iter_tier++) //Iterate over tier list
++    //{
+
++      tier_idx = topolib_get_tier_id_from_tier_name(tierServerPtr->tier->list[0], topo_idx);
+       if(tier_idx < 0)
+       {
+          TODO - Add Tier in memory - Do we have method??
+       }
++      for(iter_server = 0; tierServerPtr->server && iter_server < tierServerPtr->server->count; iter_server++) //Iterate over server list
++      {
++       	//Check if server does not exist, and if it does not exist add it       
++        int ret = topolib_check_and_add_server(topo_idx, tierServerPtr->server->list[iter_server], tierServerPtr->server->list[iter_server], tier_idx); 
+         if(ret > 0)
+                 TL1 -> Info: Serer abc added in topgu memour under tier tdddd
+         else if (ret < 0)
+                  TL1 - Errro in adding.......         
++      }
++    }
++  }
++
+   if(action_flag != RTC_MON_UPDATE && !(tierServerPtr->topo_info_flags & MINFO_FLAG_TOPO_APP_NAME)) {
+     make_sorted_tier_list(tierServerPtr, &monConfigListPtr->totalTierSortedEntries, &monConfigListPtr->maxTierSortedEntries, 
+ 		                         &monConfigListPtr->tierSortedList);
+diff --git a/core/netstorm/src/url.c b/core/netstorm/src/url.c
+index 1ec38d95af..1c9e875b57 100644
+--- a/core/netstorm/src/url.c
++++ b/core/netstorm/src/url.c
+@@ -167,7 +167,6 @@
+ #include "ns_socket.h"
+ #include "monitors/mon_init.h"
+ 
+-int max_server_id_used = 0;
+ int self_tier_id = 0;
+ int total_tier_table_entries =0;
+ int topo_idx = -1;
+@@ -2927,9 +2926,8 @@ static void generators_entry_in_topology()
+   err_buf[0]='\0';
+   for (i = 0; i < sgrp_used_genrator_entries; i++)
+   {
+-    max_server_id_used += 1;
+     //By default let generator be autoscaled from cmon to apply monitors  // TODO - what is this comment?
+-    topolib_add_generator_entry(generator_entry[i].IP, (char *)generator_entry[i].gen_name,self_tier_id,topo_idx,err_buf, 1);
+TODO - Fix spaces,  change name -> in_memory
++    topolib_add_manual_server_entry(generator_entry[i].IP, (char *)generator_entry[i].gen_name, self_tier_id, topo_idx,err_buf, 1);
+     
+   }
+ }

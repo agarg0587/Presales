@@ -1,0 +1,93 @@
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header
+        xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+        <soap:Body>
+	<ns3:addItemResponse
+    xmlns:ns2="http://www.macys.com/enterprise_services"
+    xmlns:ns4="http://output.pricing.macys.com"
+    xmlns:ns3="http://v4.services.pe.macys.com"
+    xmlns:ns5="http://input.pricing.macys.com">
+    <ns4:MESSAGE type="SmartPEResp">
+        <TRANSACTION>
+            <DATETIME>2017-05-19T14:46:11</DATETIME>
+            <ROUTING_INFO>NA</ROUTING_INFO>
+            <STORE>{Store}</STORE>
+            <TERMINAL>0</TERMINAL>
+            <TRANSACTION_NO>0</TRANSACTION_NO>
+            <MESSAGE_ID>7</MESSAGE_ID>
+            <SEQUENCE_NO>0</SEQUENCE_NO>
+            <FLAGS>0</FLAGS>
+            <MERCH_TRANSACTION_SUBTOTAL>4104</MERCH_TRANSACTION_SUBTOTAL>
+            <MERCH_TRANSACTION_TAX>267</MERCH_TRANSACTION_TAX>
+            <MERCH_TRANSACTION_TOTAL>4371</MERCH_TRANSACTION_TOTAL>
+            <T_AMOUNT_SAVED_DESCRIPTION>0</T_AMOUNT_SAVED_DESCRIPTION>
+            <TRANSACTION_AMOUNT_SAVED>-16896</TRANSACTION_AMOUNT_SAVED>
+            <TRANSACTION_TAXABLE_TOTAL>4104</TRANSACTION_TAXABLE_TOTAL>
+            <TRANSACTION_NONTAXABLE_TOTAL>0</TRANSACTION_NONTAXABLE_TOTAL>
+            <ITEM>
+                <GUID_SET>
+                    <ORDINAL>1</ORDINAL>
+                    <STATUS>ADD</STATUS>
+                </GUID_SET>
+                <ITEM_KEY_FIELD>00013205952575400000</ITEM_KEY_FIELD>
+                <ITEM_DEPARTMENT>132</ITEM_DEPARTMENT>
+                <ITEM_VENDOR>595</ITEM_VENDOR>
+                <ITEM_CLASS>45</ITEM_CLASS>
+                <ITEM_SUBCLASS>4</ITEM_SUBCLASS>
+                <ITEM_DIVISION_MASTER_STYLE>0</ITEM_DIVISION_MASTER_STYLE>
+                <ITEM_MARK_STYLE>25754</ITEM_MARK_STYLE>
+                <ITEM_COLOR>0</ITEM_COLOR>
+                <ITEM_SIZE>0</ITEM_SIZE>
+                <ITEM_PRICING_STATUS>2</ITEM_PRICING_STATUS>
+                <ITEM_COUPON_EXCLUSION>0</ITEM_COUPON_EXCLUSION>
+                <ITEM_SKU_STATE>32</ITEM_SKU_STATE>
+                <ITEM_DESCRIPTION>LAUREN EVEDRS</ITEM_DESCRIPTION>
+                <ITEM_ORIGINAL_RETAIL_PRICE>21000</ITEM_ORIGINAL_RETAIL_PRICE>
+                <ITEM_UNIT_PRICE>5863</ITEM_UNIT_PRICE>
+                <ITEM_SEASON_LOW_PRICE>0</ITEM_SEASON_LOW_PRICE>
+                <ITEM_TAX_ABILITY>1</ITEM_TAX_ABILITY>
+                <ITEM_TAX_CODE>61000</ITEM_TAX_CODE>
+                <ITEM_PRICING_METHOD>0</ITEM_PRICING_METHOD>
+                <ITEM_INDICATOR_FLAG>8000</ITEM_INDICATOR_FLAG>
+                <ITEM_CLUB_INDICATOR>0</ITEM_CLUB_INDICATOR>
+                <I_GROUPBY_QUANTITY>1</I_GROUPBY_QUANTITY>
+                <ITEM_SELLING_PRICE>4104</ITEM_SELLING_PRICE>
+                <ITEM_EXTENDED_SELLING_PRICE>4104</ITEM_EXTENDED_SELLING_PRICE>
+                <ITEM_RETURN_PRICE_1>4104</ITEM_RETURN_PRICE_1>
+                <ITEM_RETURN_QUANTITY_1>1</ITEM_RETURN_QUANTITY_1>
+                <I_POTENTIAL_COMPLEXPROMO>0</I_POTENTIAL_COMPLEXPROMO>
+                <ITEM_BROAD_EXCLUSION_CODE>10</ITEM_BROAD_EXCLUSION_CODE>
+                <ITEM_BROAD_MERCHANDISE_GROUP>79</ITEM_BROAD_MERCHANDISE_GROUP>
+                <ITEM_DEPARTMENT_DESCRIPTION>RLPH LRN PTTE</ITEM_DEPARTMENT_DESCRIPTION>
+                <ITEM_DEPARTMENT_TAXABILITY>0</ITEM_DEPARTMENT_TAXABILITY>
+                <ITEM_DEPARTMENT_FLAGWORD>0</ITEM_DEPARTMENT_FLAGWORD>
+                <PROMO>
+                    <PROMOTIONAL_DISCOUNT_CODE>48981311</PROMOTIONAL_DISCOUNT_CODE>
+                    <PROMO_START_DATE>7126</PROMO_START_DATE>
+                    <PROMO_START_TIME>1</PROMO_START_TIME>
+                    <PROMO_STOP_DATE>7217</PROMO_STOP_DATE>
+                    <PROMO_STOP_TIME>2359</PROMO_STOP_TIME>
+                    <PROMO_SELLING_PRICE>0</PROMO_SELLING_PRICE>
+                    <PROMOTIONAL_DISCOUNT_AMOUNT>3000</PROMOTIONAL_DISCOUNT_AMOUNT>
+                    <ITEM_MARKDOWN_AMOUNT_DISCOUNT>0</ITEM_MARKDOWN_AMOUNT_DISCOUNT>
+                    <PROMO_SCHEME>100</PROMO_SCHEME>
+                    <PROMO_FLAG_WORD>0</PROMO_FLAG_WORD>
+                    <PROMO_MAP_BYTE>0</PROMO_MAP_BYTE>
+                    <PROMO_DESCRIPTION>Save 30% off.</PROMO_DESCRIPTION>
+                    <P_STATUS_CODE>1</P_STATUS_CODE>
+                    <P_PRIORITY>0</P_PRIORITY>
+                    <PROMO_IMPACT_PRICE>1759</PROMO_IMPACT_PRICE>
+                    <PROMO_TYPE>2</PROMO_TYPE>
+                    <P_PREVIOUS_SALE_PRICE>5863</P_PREVIOUS_SALE_PRICE>
+                    <PROMO_EFFECTIVE_PRICE>4104</PROMO_EFFECTIVE_PRICE>
+                    <PROMO_AD_FLAG>0</PROMO_AD_FLAG>
+                    <PROMO_SIGN_NUMBER>0</PROMO_SIGN_NUMBER>
+                </PROMO>
+            </ITEM>
+        </TRANSACTION>
+        <CORRELATION>XMLRequest</CORRELATION>
+    </ns4:MESSAGE>
+</ns3:addItemResponse>
+</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,25 @@
+{
+  "StatusCode": 200,
+  "Message": "OK",
+  "ServiceVersion": "V1",
+  "CRSCreditCardAccounts": {
+    "CRSCreditCardAccount": [
+      {
+        "accountNumber": "60353400036XXXXX",
+        "accountType": "PL",
+        "AddrLine1": "5XXX Caparelli CT",
+        "AddrLine2": "",
+        "City": "Pleasanton",
+        "State": "CA",
+        "Zip": "94588",
+        "homephone": "123-450-2013",
+        "workphone": "830-555-7722",
+        "Association": "Y",
+        "vipCode": "25",
+        "expiryYYYY": "2019",
+        "expiryMM": "11",
+        "nameOnCard": "PRIMARY TESTACCOUNT"
+      }
+    ]
+  }
+}

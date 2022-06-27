@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns4:startTransactionResponse xmlns:ns4="http://output.pricing.macys.com" xmlns:ns2="http://www.macys.com/enterprise_services" xmlns:ns3="http://input.pricing.macys.com">
+         <DivStore>
+            <Division>71</Division>
+            <Store>166</Store>
+         </DivStore>
+         <startTime>2018-01-16T15:05:36</startTime>
+         <transactionID>6d01b0c9-915f-480a-9c41-f0417bfb3da8</transactionID>
+      </ns4:startTransactionResponse>
+   </soap:Body>
+</soap:Envelope>

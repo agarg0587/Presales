@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Draft//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+
+
+<title>Error 500--Internal Server Error</title>
+<meta name="GENERATOR" content="WebLogic Server">
+</head><body bgcolor="white">
+<font face="Helvetica"><br clear="all">
+<table border="0" cellspacing="5"><tbody><tr><td><br clear="all">
+<font color="black" face="Helvetica" size="3"><h2>Error 500--Internal Server Error</h2>
+</font></td></tr>
+</tbody></table>
+<table border="0" cellpadding="10" width="100%"><tbody><tr><td bgcolor="white" valign="top" width="100%"><font face="Courier New"><pre>java.lang.OutOfMemoryError: allocLargeObjectOrArray: [C, size 536936464
+	at java.util.Arrays.copyOf(Arrays.java:2882)
+	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:100)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:390)
+	at java.lang.StringBuilder.append(StringBuilder.java:119)
+	at com.cavisson.ndutils.NDSys.getParameterValues(NDSys.java:1491)
+	at com.cavisson.ndutils.NDSys.dumpDBMethodExit(NDSys.java:1435)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:279)
+	at weblogic.jdbc.wrapper.PreparedStatement.executeQuery(PreparedStatement.java:128)
+	at com.cavisson.nsecom.SearchProduct.getProductCountForSearch(SearchProduct.java:410)
+	at com.cavisson.nsecom.SearchProduct.doGet(SearchProduct.java:162)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:292)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:175)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3498)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(Unknown Source)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2180)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2086)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1406)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:201)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:173)
+</pre></font></td></tr>
+</tbody></table>
+
+</font></body></html>

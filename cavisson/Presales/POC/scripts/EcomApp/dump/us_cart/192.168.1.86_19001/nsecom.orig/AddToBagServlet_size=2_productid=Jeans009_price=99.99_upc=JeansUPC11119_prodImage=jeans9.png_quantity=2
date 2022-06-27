@@ -1,0 +1,128 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+
+<link rel="stylesheet" href="/nsecom/css/style.css" type="text/css">
+
+
+
+    <title>NSEcom Cart page</title></head><body leftmargin="0" topmargin="0" bgcolor="#e6e6fa" marginheight="0" marginwidth="0">
+    <form name="frmMain" method="get">
+    <table border="0" width="100%">
+    <tbody><tr><td>
+    
+    </td></tr><tr>
+      <td align="center" valign="top" width="10%">
+        <img src="/nsecom/images/logo.png" height="30" width="140">
+      </td>
+    </tr>
+    
+    </tbody></table><br>
+        <table align="center" border="0" width="60%">
+      <tbody><tr><td align="right" width="45%"><img src="/nsecom/images/nsecomlogo.png"></td>
+        <td width="10%"><input style="font-size: 16px;" name="keyword" type="text"></td>
+        <td width="45%"><input value="search" onclick="validateKeyword();" type="submit">  
+      </td></tr>
+    </tbody></table>
+    
+    
+    <table align="center" border="0" width="60%">
+    <tbody><tr><td align="center">
+    <div id="navcontainer" align="center">
+    
+    <ul>
+    <li><a href="#">  Gift Shop  </a></li>
+    <li><a href="#"> Women </a></li>
+    <li><a href="#">  Men  </a></li>
+    <li><a href="#">  Shoes  </a></li>
+    <li><a href="#">  Home Accents  </a></li>
+    <li><a href="#"> New Items </a></li>
+    </ul>
+    
+    </div>
+    </td></tr>
+    </tbody></table><table>
+    
+    </table>
+    
+    </form>
+    
+
+
+
+<script language="javascript" src="js/validate.js"></script>
+
+
+	
+	<form name="frmMain2" method="get">
+		<table class="table" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="40%">
+			<tbody><tr>
+				<td>
+
+					<table border="0" width="100%">
+						<tbody><tr>
+							<td><table cellpadding="0" cellspacing="0" width="100%">
+									<tbody><tr>
+										
+										<td style="font-size: 15px; color: rgb(255, 0, 0); font-weight: bold; text-align: left;">2 item
+											added to your cart</td>
+									</tr>
+								</tbody></table></td>
+						</tr>
+
+						
+
+		<tr>
+			<td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody><tr>
+						<td width="40%"><img src="/nsecom/images/jeans9.png" height="160" width="150"></td>
+
+						<td bgcolor="#ffffff"><table border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td width="100%">  Color: <b>blue</b>  ,Size: <b>2</b>
+									</td>
+								</tr>
+								<tr>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>  PRICE:  US $ 199.98</td>
+								</tr>
+							</tbody></table></td>
+					</tr><tr>
+						<td> </td>
+						<td align="right"><input name="productid" value="Jeans009" type="hidden"> <input name="upc" value="JeansUPC11119" type="hidden"> <input name="size" value="2" type="hidden"> <input name="color" value="blue" type="hidden"> <input name="quantity" value="2" type="hidden"> <input name="price" value="199.98" type="hidden"> <input name="status" value="true" type="hidden"> <input name="cartId" value="Cart20130325064443014" type="hidden"> 
+							<input value="Continue Checkout" onclick='submitFrom("Continue Checkout")' type="button"> <input value="Cancel" onclick='submitFrom("Cancel")' type="button"> 
+							</td>
+					</tr>
+					
+				</tbody></table></td>
+		</tr>
+		</tbody></table>
+		</td>
+		</tr>
+		</tbody></table>
+
+		
+		
+		
+
+		<script type="text/javascript" src="/nsecom/js/validate.js"></script>
+
+
+
+<br>
+<hr>
+  <table border="0" cellpadding="0" cellspacing="0" width="99%">
+<tbody><tr>
+       <td>
+            <center>Copyright © 2013, Cavisson Systems Inc. All rights reserved.</center>
+       </td>
+  </tr>
+  
+  <tr>
+      <td> </td>
+  </tr>
+  
+</tbody></table>
+
+</form></body></html>

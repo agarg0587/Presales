@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <searchRewardsResponse xmlns="http://service.cavisson.com/Loyalty/LoyaltyService/v1" xmlns:ns1="http://schema.cavisson.com/Loyalty/LoyaltyData/v1">
+         <ns1:returnCode>0</ns1:returnCode>
+         <ns1:accounts>
+            <ns1:account>
+               <ns1:membershipIdentifier>
+                  <ns1:provider>{Envelope_Body_searchRewards_provider}</ns1:provider>
+                  <ns1:identifier>841010</ns1:identifier>
+               </ns1:membershipIdentifier>
+               <ns1:emailAddress>
+                  <ns1:emailAddress>{Envelope_Body_searchRewards_emailAddress}</ns1:emailAddress>
+               </ns1:emailAddress>
+               <ns1:loyaltyCardFlag>false</ns1:loyaltyCardFlag>
+               <ns1:tier>BASE</ns1:tier>
+               <ns1:eventType>INV</ns1:eventType>
+               <ns1:accountStatus>ACTIVE</ns1:accountStatus>
+               <ns1:member>
+                  <ns1:phoneNumbers>
+                     <ns1:phoneNumber>
+                        <ns1:phone>1306295190</ns1:phone>
+                        <ns1:type>HOME</ns1:type>
+                     </ns1:phoneNumber>
+                  </ns1:phoneNumbers>
+               </ns1:member>
+            </ns1:account>
+         </ns1:accounts>
+      </searchRewardsResponse>
+   </soap:Body>
+</soap:Envelope>

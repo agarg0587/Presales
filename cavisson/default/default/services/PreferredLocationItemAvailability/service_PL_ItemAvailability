@@ -1,6 +1,6 @@
 { 
    "returnCode": "1", 
-   "servedFrom": "PFLApp2",
+   "servedFrom": "PFLApp1",
    "returnMessage": "{ReturnStatus}", 
    "itemList": [    
    {$CAVREPEAT_BLOCK_START, sep(,), Count(upcNumber)} 

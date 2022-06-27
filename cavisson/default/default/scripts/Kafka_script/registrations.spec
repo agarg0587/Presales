@@ -1,0 +1,13 @@
+//nsl_static_var(payload:1, File=/home/netstorm/work/scripts/kafka/kafka/RTES_Kafka/ECSpayload.txt, Refresh=USE, Mode=RANDOM, VAR_VALUE=F1=file, EncodeMode=All, CopyFileToTR=Yes);
+nsl_static_var(payload:1, File=/home/netstorm/work/scripts/OCF/OCF/RTES_KafkaNew/UA.txt, Refresh=USE, Mode=SEQUENTIAL, VAR_VALUE=F1=file, EncodeMode=All, CopyFileToTR=Yes);
+//nsl_date_var(Date_Par, Format="%Y-%m-%d", Refresh=SESSION);
+//nsl_static_var(atgid:1, File=/home/netstorm/BigData/data/DaaS/atgid_v2.txt, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All, CopyFileToTR=Yes);
+nsl_date_var(Date_Par, Format="%Y-%m-%dT%H:%M:%S"  , Refresh=SESSION);
+//nsl_date_var(Date_Par1, Format="%Y-%m-%d %H:%M:%S", Refresh=USE);
+//nsl_date_var(Date_Par2, Format="%d/%m/%Y:%H:%M:%S", Refresh=USE);
+//nsl_date_var(Date_Par3, Format="%m/%d/%Y", Refresh=USE);
+//nsl_date_var(Date1, Format="%Y-%m-%dT%H:%M:%S", Offset=0.00:00:01, Refresh=USE);
+//nsl_decl_var(Date_Par);
+nsl_decl_var(Epoch_Par);
+//nsl_static_var(Payload_1:1, File=Message1.txt.ran, Refresh=USE, Mode=SEQUENTIAL, EncodeMode=All, CopyFileToTR=Yes);
+nsl_decl_var(Perf_Count);

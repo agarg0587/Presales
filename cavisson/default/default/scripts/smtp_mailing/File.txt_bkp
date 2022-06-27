@@ -1,0 +1,25 @@
+Last Backup Details:
+NetStorm Host: 192.168.1.69
+Backup/Restore date Fri Jul 26 13:07:06 2013
+ 
+Status : Partially Successful
+Mode : Automatic
+Time Taken : 0 days 0 hours 0 minutes 16 seconds
+Backup Machine Info : 192.168.1.68
+Username : root 
+Backup Path : /tmp/bkp 
+Details:
+
+[Controller-narendra] Could not find 'data' on local machine
+[Controller-narendra] Could not find 'libs' on local machine
+[Controller-narendra] Fail to syncronize additonal file 'sys/ip*' to backup machine
+[Controller-narendra] Could not find 'checkprofile' on local machine
+[Controller-narendra] Could not find 'advisoryRules' on local machine
+Backup of [Controller-narendra] PARTIALLY SUCCESSFUL
+[Controller-system_files] Could not find 'libs' on local machine
+[Controller-system_files] Could not find 'data' on local machine
+[Controller-system_files] Could not find '/etc/network/interface' on local machine
+ 
+
+*********This is an auto-generated mail. Please do not reply.*********, To: shilpa.sethi@cavisson.com naveen.raina@cavisson.com  , Subject: NetStorm Backup Status ( Host 192.168.1.69
+ )

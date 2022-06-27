@@ -1,0 +1,5 @@
+type_OPEN.json
+type_CLOSE.json
+type_TAG_CHANGE.json
+type_REGION.json
+type_messageExp.json

@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v4="http://v4.services.pe.macys.com">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <!--Optional:-->
+         
+         <version>4.0</version><client_id>MCOM</client_id>
+         <subclient_id>iShop_Android</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v4:priceQueryByUPC>
+         <upc>9601825335</upc>
+         <storeID>4085</storeID>
+         <divisionID>71</divisionID>
+      </v4:priceQueryByUPC>
+   </soapenv:Body>
+</soapenv:Envelope>

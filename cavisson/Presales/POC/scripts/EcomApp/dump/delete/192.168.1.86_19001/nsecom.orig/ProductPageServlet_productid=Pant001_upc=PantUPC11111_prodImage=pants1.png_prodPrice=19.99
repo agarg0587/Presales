@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+
+<link rel="stylesheet" href="/nsecom/css/style.css" type="text/css">
+
+
+
+    <title>NSEcom product page</title></head><body leftmargin="0" topmargin="0" bgcolor="#e6e6fa" marginheight="0" marginwidth="0">
+    <form name="frmMain" method="get">
+    <table border="0" width="100%">
+    <tbody><tr><td>
+    
+    </td></tr><tr>
+      <td align="center" valign="top" width="10%">
+        <img src="/nsecom/images/logo.png" height="30" width="140">
+      </td>
+    </tr>
+    
+    </tbody></table><br>
+        <table align="center" border="0" width="60%">
+      <tbody><tr><td align="right" width="45%"><img src="/nsecom/images/nsecomlogo.png"></td>
+        <td width="10%"><input style="font-size: 16px;" name="keyword" type="text"></td>
+        <td width="45%"><input value="search" onclick="validateKeyword();" type="submit">  
+      </td></tr>
+    </tbody></table>
+    
+    
+    <table align="center" border="0" width="60%">
+    <tbody><tr><td align="center">
+    <div id="navcontainer" align="center">
+    
+    <ul>
+    <li><a href="#">  Gift Shop  </a></li>
+    <li><a href="#"> Women </a></li>
+    <li><a href="#">  Men  </a></li>
+    <li><a href="#">  Shoes  </a></li>
+    <li><a href="#">  Home Accents  </a></li>
+    <li><a href="#"> New Items </a></li>
+    </ul>
+    
+    </div>
+    </td></tr>
+    </tbody></table><table>
+    
+    </table>
+    
+    </form>
+    
+
+
+
+
+
+
+	
+
+	<table class="table" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="60%">
+		<tbody><tr>
+			<td style="border-right: 1px solid rgb(173, 198, 233);" width="35%"><img src="/nsecom/images/pants1.png" alt="Available" height="450" width="300"></td>
+			<td>
+				<form name="frmMain2" method="get">
+					<table border="0" width="100%">
+						<tbody><tr>
+							<td>
+								<table border="0">
+									<tbody><tr>
+										<td width="8%">Color: </td>
+										<td width="5%"><table border="1" width="100%">
+												<tbody><tr>
+													<td bgcolor="#000d0c" width="100%"> </td>
+												</tr>
+											</tbody></table>
+										</td><td> </td>
+										
+									</tr>
+									<tr>
+										<td> </td>
+										<td>blue</td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+
+						<tr>
+							<td width="100%">
+								<table border="0" width="100%">
+									<tbody><tr>
+										<td width="8%">Size: </td>
+										<td width="12%"><select name="size" title="Select the available size" style="width: 90%;"><option value="2" selected="selected">2</option>
+												<option value="4">4</option>
+												<option value="6">6</option>
+												<option value="8">8</option>
+												<option value="10">10</option></select></td>
+										<td> </td>
+								</tr></tbody></table>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<table border="0" width="100%">
+									<tbody><tr>
+										<td width="8%">Qty:</td>
+
+										<td width="12%"><input name="productid" value="Pant001" type="hidden"> <input name="price" value="19.99" type="hidden"> <input name="upc" value="PantUPC11111" type="hidden"> <input name="prodImage" value="pants1.png" type="hidden"> <input style="width: 85%;" name="quantity" type="text"></td>
+
+										<td>       <input value="Add to cart" onclick="validateQuantity()" type="button">
+										</td>
+
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+
+					</tbody></table>
+				</form>
+			</td>
+
+		</tr>
+	</tbody></table>
+
+	<script type="text/javascript" src="/nsecom/js/validate.js"></script>
+
+
+
+<br>
+<hr>
+  <table border="0" cellpadding="0" cellspacing="0" width="99%">
+<tbody><tr>
+       <td>
+            <center>Copyright © 2013, Cavisson Systems Inc. All rights reserved.</center>
+       </td>
+  </tr>
+  
+  <tr>
+      <td> </td>
+  </tr>
+  
+</tbody></table>
+
+</body></html>

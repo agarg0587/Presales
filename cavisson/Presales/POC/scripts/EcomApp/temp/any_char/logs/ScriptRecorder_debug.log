@@ -1,0 +1,697 @@
+3/25 6:40:16|MainFrame|MainFrame|Constructor Called.
+3/25 6:40:16|MainFrame|createMozillaComponent|Method Called.
+3/25 6:40:16|MainFrame|setHTTPProxyConfiguration|Method called.
+3/25 6:40:16|MainFrame|setHTTPSProxyConfiguration|Method called.
+3/25 6:40:16|MainFrame|setProxyServerException|Method called.
+3/25 6:40:16|MainFrame|setSecurityCertificationErrors|Method called.
+3/25 6:40:16|MainFrame|EnableDisableBrowserOtions|method called.
+3/25 6:40:16|MainFrame|EnableDisableBrowserOtions|Enabling JavaScript feature.
+3/25 6:40:16|MainFrame|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+3/25 6:40:16|MainFrame|EnableDisableBrowserOtions|Enabling Plugins feature.
+3/25 6:40:16|MainFrame|EnableDisableBrowserOtions|Setting User Agent=Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+3/25 6:40:16|MainFrame|addNavigationListeners|method called.
+3/25 6:40:16|NetStormBrowserNavigationEventListener|NetStormBrowserNavigationEventListener|Constructor Called.
+3/25 6:40:16|NetstormCEventListener|NetstormCEventListener|Constructor Called.
+3/25 6:40:16|MainFrame|updateBackForwardButtons|method Called.
+3/25 6:40:16|NetstormCEventListener|addHTMLElementsListeners|Method Called.
+3/25 6:40:16|NetStormBrowserNavigationEventListener|setcEventListener|Method Called.
+3/25 6:40:16|NetStormBrowserNavigationEventListener|setupListeners|Method Called.
+3/25 6:40:16|NetstormCEventListener|addAllHTMLElementsListeners|Method Called.
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = request
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016489
+3/25 6:40:16|Utils|convertToSecond method called|time = 125.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|NetStormBrowserNavigationEventListener|navigationStarted|Method Called for URL=http://192.168.1.86:19001/nsecom
+3/25 6:40:16|NetStormBrowserNavigationEventListener|navigationStarted|Begin Loading URL == http://192.168.1.86:19001/nsecom  ===== Begin = 1364217016520
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = snapShot
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = response
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016535
+3/25 6:40:16|Utils|convertToSecond method called|time = 171.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016535
+3/25 6:40:16|Utils|convertToSecond method called|time = 171.0
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016535
+3/25 6:40:16|Utils|convertToSecond method called|time = 171.0
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|NetStormBrowserNavigationEventListener|navigationStarted|Method Called for URL=http://192.168.1.86:19001/nsecom
+3/25 6:40:16|NetStormBrowserNavigationEventListener|navigationStarted|Begin Loading URL == http://192.168.1.86:19001/nsecom  ===== Begin = 1364217016551
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom, requestOrResponce = snapShot
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = request
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016551
+3/25 6:40:16|Utils|convertToSecond method called|time = 187.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for time 0.015999999999999986 = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = response
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016582
+3/25 6:40:16|Utils|convertToSecond method called|time = 218.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for time 0.015999999999999986 = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016582
+3/25 6:40:16|Utils|convertToSecond method called|time = 218.0
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016582
+3/25 6:40:16|Utils|convertToSecond method called|time = 218.0
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = snapShot
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = snapShot
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = request
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016598
+3/25 6:40:16|Utils|convertToSecond method called|time = 234.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for time 0.016000000000000014 = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = request
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = response
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016629
+3/25 6:40:16|Utils|convertToSecond method called|time = 265.0
+3/25 6:40:16|Utils|isSplit|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:16|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:16|Utils|isSplit|Splitting for time 0.016000000000000014 = false
+3/25 6:40:16|Utils|isSplit|result = false
+3/25 6:40:16|Utils|isSplitForURLType|Method called.
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplitForURLType|value = false
+3/25 6:40:16|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016629
+3/25 6:40:16|Utils|convertToSecond method called|time = 265.0
+3/25 6:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217016629
+3/25 6:40:16|Utils|convertToSecond method called|time = 265.0
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:16|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/images/logo.png, requestOrResponce = snapShot
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/images/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/images/
+3/25 6:40:16|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:16|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:16|MainFrame|updateBackForwardButtons|method Called.3/25 6:40:16|NetStormBrowserNavigationEventListener|navigationFinished|Method Called for URL=http://192.168.1.86:19001/nsecom/
+
+3/25 6:40:16|NetStormBrowserNavigationEventListener|NavigationFinishEventRunner|constructor called for url=http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|NetStormBrowserNavigationEventListener|setupListeners|Method Called.
+3/25 6:40:16|NetstormCEventListener|addAllHTMLElementsListeners|Method Called.
+3/25 6:40:16|Utils|filterPath|path = http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|Utils|getFileName|path = http://192.168.1.86:19001/nsecom/
+3/25 6:40:16|Utils|getFileName|filename for dump = index.html
+3/25 6:40:16|Utils|saveBrowserDocument|title = C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic\Weblogic\nsecom_new\dump\any_char\192.168.1.86_19001\nsecom\index.html
+3/25 6:40:16|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/, requestOrResponce = snapShot
+3/25 6:40:16|ScriptHTMLStart|run|Going to call init method.
+3/25 6:40:16|NSBrowser|init|Method called.
+3/25 6:40:16|WebCFormattor||constructor called.
+3/25 6:40:16|NSBrowser|execute|Method Called.
+3/25 6:40:16|NSBrowser|execute|DOM Core supported 
+3/25 6:40:16|NSBrowser|execute|DOM XML supported 
+3/25 6:40:16|NSBrowser|execute|DOM HTML supported 
+3/25 6:40:16|NSBrowser|execute|DOM Views supported 
+3/25 6:40:16|NSBrowser|execute|DOM StyleSheets supported 
+3/25 6:40:16|NSBrowser|execute|DOM CSS supported 
+3/25 6:40:16|NSBrowser|execute|DOM CSS2 supported 
+3/25 6:40:16|NSBrowser|execute|DOM Events supported 
+3/25 6:40:16|NSBrowser|execute|DOM UIEvents supported 
+3/25 6:40:16|NSBrowser|execute|DOM MouseEvents supported 
+3/25 6:40:16|NSBrowser|execute|DOM MutationEvents not supported 
+3/25 6:40:16|NSBrowser|execute|DOM HTMLEvents supported 
+3/25 6:40:16|NSBrowser|execute|DOM Traversal not supported 
+3/25 6:40:16|NSBrowser|execute|DOM Range supported 
+3/25 6:40:16|ScriptHTMLStart|Recording|Thread state =2
+3/25 6:40:16|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+3/25 6:40:20|NetstormCEventListener|handleEvent|Method Called.
+3/25 6:40:20|NetstormCEventListener|dumpEvent|Method Called. Event Type: click
+ Tag Name = A
+3/25 6:40:20|NetstormCEventListener|dumpLinkElement|Method Called.
+3/25 6:40:20|Utils|setRecordingComments|method called.
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = request
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020170
+3/25 6:40:20|Utils|convertToSecond method called|time = 3806.0
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:20|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for time 3.541 = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|NetStormBrowserNavigationEventListener|navigationStarted|Method Called for URL=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|NetStormBrowserNavigationEventListener|navigationStarted|Begin Loading URL == http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp  ===== Begin = 1364217020201
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = snapShot
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = response
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020295
+3/25 6:40:20|Utils|convertToSecond method called|time = 3931.0
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:20|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for time 3.541 = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020295
+3/25 6:40:20|Utils|convertToSecond method called|time = 3931.0
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020295
+3/25 6:40:20|Utils|convertToSecond method called|time = 3931.0
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = snapShot
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/jsp/
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020326
+3/25 6:40:20|Utils|convertToSecond method called|time = 3962.0
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:20|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for time 0.03100000000000014 = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/css/style.css, requestOrResponce = response
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020357
+3/25 6:40:20|Utils|convertToSecond method called|time = 3993.0
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020357
+3/25 6:40:20|Utils|convertToSecond method called|time = 3993.0
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020357
+3/25 6:40:20|Utils|convertToSecond method called|time = 3993.0
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/css/style.css
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/css/style.css, requestOrResponce = snapShot
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/css/style.css
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/css/
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:20|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/css/style.css
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = response
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020373
+3/25 6:40:20|Utils|convertToSecond method called|time = 4009.0
+3/25 6:40:20|Utils|isSplit|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:20|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:20|Utils|isSplit|Splitting for time -0.030999999999999694 = false
+3/25 6:40:20|Utils|isSplit|result = false
+3/25 6:40:20|Utils|isSplitForURLType|Method called.
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplitForURLType|value = false
+3/25 6:40:20|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020373
+3/25 6:40:20|Utils|convertToSecond method called|time = 4009.0
+3/25 6:40:20|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217020373
+3/25 6:40:20|Utils|convertToSecond method called|time = 4009.0
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:20|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = snapShot
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/js/
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/js/
+3/25 6:40:20|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:20|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:20|NetStormBrowserNavigationEventListener|navigationFinished|Method Called for URL=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|NetStormBrowserNavigationEventListener|NavigationFinishEventRunner|constructor called for url=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|MainFrame|updateBackForwardButtons|method Called.
+3/25 6:40:20|NetStormBrowserNavigationEventListener|setupListeners|Method Called.
+3/25 6:40:20|NetstormCEventListener|addAllHTMLElementsListeners|Method Called.
+3/25 6:40:20|Utils|filterPath|path = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|Utils|getFileName|path = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:20|Utils|getFileName|filename for dump = HomePage.jsp
+3/25 6:40:20|Utils|saveBrowserDocument|title = C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic\Weblogic\nsecom_new\dump\any_char\192.168.1.86_19001\nsecom\jsp\HomePage.jsp
+3/25 6:40:20|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp, requestOrResponce = snapShot
+3/25 6:40:21|NetstormCEventListener|handleEvent|Method Called.
+3/25 6:40:21|NetstormCEventListener|dumpEvent|Method Called. Event Type: click
+ Tag Name = INPUT
+3/25 6:40:21|Utils|setRecordingComments|method called.
+3/25 6:40:26|NetstormCEventListener|handleEvent|Method Called.
+3/25 6:40:26|NetstormCEventListener|dumpEvent|Method Called. Event Type: click
+ Tag Name = INPUT
+3/25 6:40:26|NetstormCEventListener|addBtnElement|Method Called.
+3/25 6:40:26|Utils|setRecordingComments|method called.
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = request
+3/25 6:40:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217026410
+3/25 6:40:26|Utils|convertToSecond method called|time = 10046.0
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:26|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for time 6.036999999999999 = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|NetStormBrowserNavigationEventListener|navigationStarted|Method Called for URL=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|NetStormBrowserNavigationEventListener|navigationStarted|Begin Loading URL == http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26  ===== Begin = 1364217026441
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = snapShot
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = response
+3/25 6:40:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217026535
+3/25 6:40:26|Utils|convertToSecond method called|time = 10171.0
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:26|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for time 6.036999999999999 = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217026535
+3/25 6:40:26|Utils|convertToSecond method called|time = 10171.0
+3/25 6:40:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217026535
+3/25 6:40:26|Utils|convertToSecond method called|time = 10171.0
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-examine-response
+3/25 6:40:26|RecordingHttpListener|onStartRequest|method called with request Name = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = snapShot
+3/25 6:40:26|RecordingHttpListener|onDataAvailable|method called for request=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|RecordingHttpListener|onDataAvailable|Adding dump diretory with path=C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char\192.168.1.86_19001/nsecom/
+3/25 6:40:26|RecordingHttpListener|onDataAvailable|Calling onDataAvailable on original listener.
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:26|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217026566
+3/25 6:40:26|Utils|convertToSecond method called|time = 10202.0
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for Ajax Header = false
+3/25 6:40:26|Utils|isSplit|Splitting for method GET = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|Splitting for time 0.031000000000000583 = false
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplitForURLType|value = false
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|observe|Method Called for sTopic=http-on-modify-request
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/js/validate.js, requestOrResponce = request
+3/25 6:40:26|Utils|isSplit|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForTimeDiff|Method called.
+3/25 6:40:26|Utils|isSplit|result = false
+3/25 6:40:26|Utils|isSplitForURLType|Method called.
+3/25 6:40:26|Utils|isSplit|isSplitForURLType = false
+3/25 6:40:26|RecordingHttpListener|onStopRequest|method called for request=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|NetStormBrowserNavigationEventListener|navigationFinished|Method Called for URL=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|NetStormBrowserNavigationEventListener|NavigationFinishEventRunner|constructor called for url=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|NetStormBrowserNavigationEventListener|setupListeners|Method Called.
+3/25 6:40:26|NetstormCEventListener|addAllHTMLElementsListeners|Method Called.3/25 6:40:26|MainFrame|updateBackForwardButtons|method Called.
+
+3/25 6:40:26|Utils|filterPath|path = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|Utils|getFileName|path = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:26|Utils|getFileName|filename for dump = SearchProductServlet_keyword=74858_25_24_25_5E_26
+3/25 6:40:26|Utils|saveBrowserDocument|title = C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic\Weblogic\nsecom_new\dump\any_char\192.168.1.86_19001\nsecom\SearchProductServlet_keyword=74858_25_24_25_5E_26
+3/25 6:40:26|Utils|getURLTracker|urlString = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26, requestOrResponce = snapShot
+3/25 6:40:30|ScriptHTMLStart|stopRecording|Method Called.
+3/25 6:40:30|ScriptHTMLStart|stopRecording|Going to stop recording
+3/25 6:40:30|NSBrowser|stopRecord|Method called.
+3/25 6:40:30|MainFrame|addNavigationListeners|browser disposed called.
+3/25 6:40:30|WebCFormattor|generateScripts|method called.
+3/25 6:40:30|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+3/25 6:40:30|Utils|modifyMapForSplit|Method called.
+3/25 6:40:30|Utils|modifyMapForThinkTime|Method called.
+3/25 6:40:30|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1364217030388
+3/25 6:40:30|Utils|convertToSecond method called|time = 14024.0
+3/25 6:40:30|Utils|modifyMapForThinkTime|Modifying url list for last page=SearchProductServlet, startThink=10.171, endThink=14.024
+3/25 6:40:30|Utils|generateEventDetail|method called.
+3/25 6:40:30|Utils|generateUrlInfoListDetail|method called
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.04600000000000001
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom
+3/25 6:40:30|Utils|generateUrlInfoListDetail|UrlTracker.scriptParsingData.getParsedPath()=192.168.1.86_19001/, Utils.getDumpPath() = C:\Users\Compass-91\Desktop\recorder\scripts\NetDiagnostic/Weblogic/nsecom_new\dump\any_char
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.031
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/
+3/25 6:40:30|Utils|generateUrlInfoListDetail|Main url dump file is not existing. Dump file Name = index
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.031
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/images/logo.png
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.125
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:30|Utils|generateUrlInfoListDetail|Main url dump file is not existing. Dump file Name = HomePage.jsp
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.04700000000000015
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/css/style.css
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/css/style.css
+3/25 6:40:30|Utils|generateUrlInfoListDetail|Css url dump file is not existing. Dump file Name = style.css
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:30|Utils|convertToSecond method called|time = 0.125
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:30|Utils|generateUrlInfoListDetail|Main url dump file is not existing. Dump file Name = SearchProductServlet_keyword=74858_25__25_5E_
+3/25 6:40:30|Utils|generateUrlInfoListDetail|URL = http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:30|Utils|generateUrlInfoListDetail|ScriptparsingData =http://192.168.1.86:19001/nsecom/js/validate.js
+3/25 6:40:30|WebCFormattor|generateEventsForFlow|method called.
+3/25 6:40:30|WebCGenerator|generate|method called.
+3/25 6:40:30|WebCGenerator|generate|Putting header comments in Buffer.
+3/25 6:40:30|WebCGenerator|generate|Processing URLs with list size=3
+3/25 6:40:30|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.168.1.86:19001/nsecom
+3/25 6:40:30|Utils|getTimeStampForPage|Method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|generate|Adding Inline template to the page.
+3/25 6:40:30|WebCGenerator|appendHeadersAndEndline|method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|appendHeadersAndEndline|method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|Utils|convertToSecond method called|time = 3.541
+3/25 6:40:30|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.168.1.86:19001/nsecom/jsp/HomePage.jsp
+3/25 6:40:30|Utils|getTimeStampForPage|Method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|generate|Adding Inline template to the page.
+3/25 6:40:30|WebCGenerator|appendHeadersAndEndline|method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|getCookieForTheUrl|method called.
+3/25 6:40:30|WebCGenerator|appendHeadersAndEndline|method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|Utils|convertToSecond method called|time = 6.052999999999999
+3/25 6:40:30|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.168.1.86:19001/nsecom/SearchProductServlet?keyword=74858%25%24%25%5E%26
+3/25 6:40:30|Utils|getTimeStampForPage|Method called.
+3/25 6:40:30|WebCGenerator|generate|Adding Comments to page.SearchProductServlet
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|getCookieForTheUrl|method called.
+3/25 6:40:30|WebCGenerator|generate|Adding Inline template to the page.
+3/25 6:40:30|WebCGenerator|appendHeadersAndEndline|method called.
+3/25 6:40:30|WebCGenerator|getUrlReqAndResDetails|method called.
+3/25 6:40:30|WebCGenerator|getCookieForTheUrl|method called.
+3/25 6:40:30|Utils|convertToSecond method called|time = 3.8529999999999998
+3/25 6:40:30|MainFrame|addNavigationListeners|browser disposed Exiting.
+3/25 6:40:30|MainFrame|addNavigationListeners|browser disposed called.
+3/25 6:40:30|MainFrame|addNavigationListeners|browser disposed Exiting.
+3/25 6:40:30|NSBrowser|addNavigationListeners|browser disposed Exiting.
+3/25 6:40:30|ScriptHTMLStart|stopRecording|Going to upload script to server.
+3/25 6:40:31|ScriptRecordUtils|saveScriptToServer|method called.
+3/25 6:40:31|ScriptLeftPane|enableDisableScriptForPartialScript|Method called.
+3/25 6:40:31|ScriptRightPane|enableDisableScriptForPartialScript|Method called.
+3/25 6:40:32|ScriptRecordUtils|saveScriptToServer|Script saved to server Successfully.
+3/25 6:40:33|ScriptLeftPane|addFlowNode|Method called. flow name = any_char.c
+3/25 6:40:33|ScriptLeftPane|getChildList|Method called. node = nsecom_new
+3/25 6:40:33|ScriptLeftPane|addFlowNode|Method called. name = any_char.c, file as parent node
+3/25 6:40:33|ScriptLeftPane|addFlowNode|Method called. name = any_char.c, create node at client side and then store it with file type = 9
+3/25 6:40:33|ScriptLeftPane|getNodePath|Method called. getParent = true
+3/25 6:40:33|ScriptUtils|replace|Method called. source = Available Scripts/NetDiagnostic/Weblogic/nsecom_new, toReplace = Available S, replaceWith = s
+3/25 6:40:33|ScriptRenamePage|setTableProp|Start method
+3/25 6:40:35|ScriptLeftPane|setFileToEditor|Method called.
+3/25 6:40:35|ScriptUtils|replace|Method called. source = http://192.168.1.85:80/netstorm/recorder/../../scripts/NetDiagnostic/Weblogic/nsecom_new/any_char.c, toReplace =  , replaceWith = %20
+3/25 6:40:35|ScriptRightPane|checkFileSaved|Method called.
+3/25 6:40:35|ScriptUtils|replace|Method called. source = http://192.168.1.85:80/netstorm/recorder/../../scripts/NetDiagnostic/Weblogic/nsecom_new/any_char.c, toReplace =  , replaceWith = %20
+3/25 6:40:35|ScriptLeftPane|setFileToEditor|file type is.9
+3/25 6:40:35|ScriptRightPane|checkFileSaved|Method called.
+3/25 6:40:35|ScriptMain|enableDisableAsPerPermission|Method called. isObjWritePermitted = true, isObjDeletePermitted = true
+3/25 6:40:35|ScriptUtils|getDataFormFile|Method called. fileName = any_char.cpathForFile = http://192.168.1.85:80/netstorm/recorder/../../scripts/NetDiagnostic/Weblogic/nsecom_new/any_char.c
+3/25 6:40:35|ScriptLeftPane|enableDisable|Method called. nodeType = 9
+3/25 6:40:35|ScriptRightPane|enableDisable|Method called.
+3/25 6:40:35|ScriptLeftPane|enableDisable|Method called. nodeType = 9
+3/25 6:40:35|ScriptRightPane|enableDisable|Method called.
+3/25 6:40:35|ScriptLeftPane|enableDisableScriptForPartialScript|Method called.
+3/25 6:40:35|ScriptHTMLStart|stopRecording|Delete dir path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom/css
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom/jsp
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom.orig
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom.orig/css
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom.orig/images
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom.orig/js
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/192.168.1.86_19001/nsecom.orig/jsp
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/headers
+3/25 6:40:35|ScriptUtils|deleteDirectory|Method called. path = C:\Users\Compass-91\Desktop\recorder\scripts/NetDiagnostic/Weblogic/nsecom_new/dump/any_char/Snapshots

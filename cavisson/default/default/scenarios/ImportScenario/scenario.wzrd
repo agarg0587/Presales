@@ -1,0 +1,112 @@
+configuration:
+ testname: default/default/ImportScenario
+
+schedule:
+ - concurrency: 1
+   duration: 00:01:00
+   script: ImportScenario
+
+scripts:
+ ImportScenario:
+   parameters:
+     json:
+     - parameter-name: token
+       occurrence: first
+       object-path: token
+       label: Login
+     - parameter-name: attachment_url
+       occurrence: first
+       object-path: url
+       label: Get_Attachment_URL
+     - parameter-name: attachment_key
+       occurrence: first
+       object-path: fields.key
+       label: Get_Attachment_URL
+     - parameter-name: attachment_x-amz-algorithm
+       occurrence: first
+       object-path: fields.x-amz-algorithm
+       label: Get_Attachment_URL
+     - parameter-name: attachment_x-amz-credential
+       occurrence: first
+       object-path: fields.x-amz-credential
+       label: Get_Attachment_URL
+     - parameter-name: attachment_x-amz-date
+       occurrence: first
+       object-path: fields.x-amz-date
+       label: Get_Attachment_URL
+     - parameter-name: attachment_x-amz-security-token
+       occurrence: first
+       object-path: fields.x-amz-security-token
+       label: Get_Attachment_URL
+     - parameter-name: attachment_policy
+       occurrence: first
+       object-path: fields.policy
+       label: Get_Attachment_URL
+     - parameter-name: attachment_x-amz-signature
+       occurrence: first
+       object-path: fields.x-amz-signature
+       label: Get_Attachment_URL
+     - parameter-name: incident_number
+       occurrence: first
+       object-path: number
+       label: Create_Incident
+   flows:
+     HOW:
+       requests:
+       - url: '{how_host}/login'
+         label: Login
+         method: POST
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+         body-file: Login.json
+       - url: '{how_host}/attachment?ext=png'
+         label: Get_Attachment_URL
+         method: GET
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDMwOTE0MTEsIm5iZiI6MTY0MzA5MTQxMSwiZXhwIjoxNjQ1NjgzNDExLCJpc3MiOiJob3cuYzJzIiwiYXVkIjoiYXRobGV0ZSIsInVzZXJpZCI6ImNhdmlzc2lvbl9kZW1vIiwiY29ycGlkIjoid3c2OGI0NTQ4YmNmMTc0NTFhIn0.PkQRtSu3tN5hMF1qDlOisG894_qmWlrZGKtDAcDoboY'
+       - url: '{attachment_url}'
+         label: Upload_Attachment
+         method: POST
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+         body-file: Upload_Attachment.formdata
+       - url: '{how_host}/incident'
+         label: Create_Incident
+         method: POST
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDMwOTE0MTEsIm5iZiI6MTY0MzA5MTQxMSwiZXhwIjoxNjQ1NjgzNDExLCJpc3MiOiJob3cuYzJzIiwiYXVkIjoiYXRobGV0ZSIsInVzZXJpZCI6ImNhdmlzc2lvbl9kZW1vIiwiY29ycGlkIjoid3c2OGI0NTQ4YmNmMTc0NTFhIn0.PkQRtSu3tN5hMF1qDlOisG894_qmWlrZGKtDAcDoboY'
+         body-file: Create_Incident.json
+       - url: '{how_host}/incident'
+         label: Get_Incident_s_
+         method: GET
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDMwOTE0MTEsIm5iZiI6MTY0MzA5MTQxMSwiZXhwIjoxNjQ1NjgzNDExLCJpc3MiOiJob3cuYzJzIiwiYXVkIjoiYXRobGV0ZSIsInVzZXJpZCI6ImNhdmlzc2lvbl9kZW1vIiwiY29ycGlkIjoid3c2OGI0NTQ4YmNmMTc0NTFhIn0.PkQRtSu3tN5hMF1qDlOisG894_qmWlrZGKtDAcDoboY'
+       - url: '{how_host}/asset/wcw/assets.json'
+         label: Get_Asset
+         method: GET
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDMwOTE0MTEsIm5iZiI6MTY0MzA5MTQxMSwiZXhwIjoxNjQ1NjgzNDExLCJpc3MiOiJob3cuYzJzIiwiYXVkIjoiYXRobGV0ZSIsInVzZXJpZCI6ImNhdmlzc2lvbl9kZW1vIiwiY29ycGlkIjoid3c2OGI0NTQ4YmNmMTc0NTFhIn0.PkQRtSu3tN5hMF1qDlOisG894_qmWlrZGKtDAcDoboY'
+       - url: '{how_host}/asset/wcw/config.json'
+         label: Get_Config
+         method: GET
+         headers:
+           'Accept-Encoding': ' gzip, deflate, br, compress;q=0.9'
+           'Accept': 'text/plain,application/json,text/html,application/javascript,application/xml'
+           'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1'
+           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDMwOTE0MTEsIm5iZiI6MTY0MzA5MTQxMSwiZXhwIjoxNjQ1NjgzNDExLCJpc3MiOiJob3cuYzJzIiwiYXVkIjoiYXRobGV0ZSIsInVzZXJpZCI6ImNhdmlzc2lvbl9kZW1vIiwiY29ycGlkIjoid3c2OGI0NTQ4YmNmMTc0NTFhIn0.PkQRtSu3tN5hMF1qDlOisG894_qmWlrZGKtDAcDoboY'

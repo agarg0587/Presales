@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>NSEcom home page</title>
+<style>
+
+#navcontainer ul
+{
+align:center;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #5B88C0;
+}
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #B75A00;
+}
+</style>
+</head>
+<body bgcolor='#E6E6FA' LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<form name='frmMain' method='get' action='searchProduct'>
+<table border =0 width=100%>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><br/>
+<td width=45% align=right><img src='images/nsecomlogo.png'></td>
+<td width=10%><input type=text style='font-size:16px;'name='keyword' /></td>
+<td width=45%><input type=submit value='search'>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><td  align=center>
+<div id='navcontainer' align=center>
+<ul >
+<li ><a href='#'>&nbsp;&nbsp;Gift Shop&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;Women&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Men&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Shoes&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Home Accents&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;New Items&nbsp;</a></li>
+</ul>
+</div>
+</td></tr>
+<table>
+</td></tr>
+</table>
+<form>
+</form>
+</body>
+</html>

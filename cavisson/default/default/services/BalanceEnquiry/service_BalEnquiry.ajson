@@ -1,0 +1,18 @@
+{
+   "Body": {
+      "InquiryResponse": {
+         "InquiryResponse": {
+            "result": "APPROVED",
+            "servedFrom": "BalanceApp1",
+            "originInfo": {
+               "division": "21",
+               "storeNbr": "544",
+               "origTransDateCCYYMMDD": "20200314",
+               "origTransTimeHHMMSS": "122345",
+               "uniqueId": "956242733"
+            },
+            "balanceRemaining": "500"
+         }
+      }
+   }
+}

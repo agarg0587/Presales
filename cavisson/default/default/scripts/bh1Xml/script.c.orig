@@ -1,0 +1,192 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../../include/ns_string.h"
+#include "script.h"
+
+#define MY_COOKIE_SIZE 24
+
+typedef struct {
+	int unum;
+	short acode;
+	int dnum;
+	char inum[16];
+} UserDeviceIP;
+
+UserDeviceIP *bindTable;
+
+static int num_bind_entries;;
+
+typedef struct {
+	char cookie1[MY_COOKIE_SIZE];
+	char cookie2[MY_COOKIE_SIZE];
+	short dev_signature;
+} DeviceName;
+
+DeviceName *deviceTable;
+static int num_devices;
+
+typedef struct {
+	char *signature;
+	short pct;
+	short cum_pct;
+} DevSigDist;
+
+DevSigDist deviceSignatures[]= {
+	{"InternetExplorer6.0 UA_IE Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 55, 55},
+	{"InternetExplorer5.5 UA_IE Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 15, 70},
+	{"InternetExplorer5.0 UA_IE Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 15, 85},
+	{"Netscape7.0 UA_NET Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 5, 90},
+	{"Netscape4.0 UA_NET Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 3, 93},
+	{"Mozilla1.0 UA_NET Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 3, 96},
+	{"Opera6.0 UA_OTHER Mozilla_CA/4.79 [en] (X11; U; Linux 2.4.18-3d_epoll i686)", 4, 100}
+};
+
+void 
+create_device_entries()
+{
+int i, j, rnum, num;
+int num_dev_sig = sizeof(deviceSignatures)/sizeof(DevSigDist);
+FILE *fp, *bfp;
+char buf[4096];
+char *tok;
+char *stringp;
+
+    bfp = fopen("/home/netstorm/work/sys/bindings.dat", "r");
+    if (!bfp) {
+	printf ("User-Dev-IP bindings sys/bindings.dat failed to open\n");
+	exit(1);
+    }
+    if (!fgets (buf, 4096, bfp)) {
+	printf ("User-Dev-IP bindings sys/bindings.dat bad format\n");
+	exit(1);
+    }
+    if (sscanf (buf, "%d %d", &num_devices, &num_bind_entries) != 2) {
+	printf ("User-Dev-IP bindings sys/bindings.dat Bad format\n");
+	exit(1);
+    }
+    printf ("num_dev = %d num_bind_entries=%d\n", num_devices, num_bind_entries);
+    i = 0;
+    bindTable = (UserDeviceIP *)do_shmget(num_bind_entries * sizeof(UserDeviceIP), "User Device IP Table shm");
+    while (fgets (buf, 4096, bfp)) {
+	    buf[strlen(buf) -1 ] = '\0';
+	    stringp = buf;
+	    tok = strsep(&stringp, ",");
+	    bindTable[i].unum = atoi(tok);
+	    tok = strsep(&stringp, ",");
+	    bindTable[i].acode = (short)atoi(tok);
+	    tok = strsep(&stringp, ",");
+	    bindTable[i].dnum = atoi(tok);
+	    tok = strsep(&stringp, ",");
+	    strcpy( bindTable[i].inum, tok);
+	    if (i < 5)
+		printf ("unum=(%d) acode=(%hd) dnum=(%d) ip=(%s)\n", bindTable[i].unum, bindTable[i].acode, bindTable[i].dnum, bindTable[i].inum);
+	    i++;
+    }
+    fclose (bfp);
+
+
+    fp = fopen("/home/netstorm/work/sys/devNames.dat", "r");
+    if (fp) {
+        if (!fgets (buf, 4096, fp)) {
+	    printf ("Dev Table sys/devNames.dat bad format\n");
+	    exit(1);
+        }
+    	if (sscanf (buf, "%d", &num) != 1) {
+	    printf ("Dev Table sys/devNames.dat Bad format\n");
+	    exit(1);
+    	}
+	if (num != num_devices) {
+	    printf ("sys/devNames.dat and bindings.dat inconsistent\n");
+	    exit(1);
+	}
+
+	deviceTable = (DeviceName *)do_shmget(num * sizeof(DeviceName), "Device Name Table shm");
+	i = 0;
+	while (fgets (buf, 4096, fp)) {
+	    stringp = buf;
+	    tok = strsep(&stringp, ",");
+	    strcpy( deviceTable[i].cookie1, tok);
+	    tok = strsep(&stringp, ",");
+	    strcpy( deviceTable[i].cookie2, tok);
+	    tok = strsep(&stringp, ",");
+	    deviceTable[i].dev_signature = atoi(tok); 
+	    if (i < 5)
+		printf ("ck1=(%s) ck2=(%s) sig=%hd\n", deviceTable[i].cookie1, deviceTable[i].cookie2, deviceTable[i].dev_signature);
+	    i++;
+	}
+	fclose (fp);
+    } else {
+	deviceTable = (DeviceName *)do_shmget(num * sizeof(DeviceName), "Device Name Table shm");
+	for (i = 0; i < num; i++) {
+	   deviceTable[i].cookie1[0] = '\0'; 
+	   deviceTable[i].cookie2[0] = '\0'; 
+	   rnum = random()%100;
+	   for (j=0; j < num_dev_sig; j++) {
+		if (rnum < deviceSignatures[j].cum_pct)
+		    break;
+	   }
+	   deviceTable[i].dev_signature = j; 
+	}
+   }
+}
+
+void user_test_init() {
+    	create_device_entries();
+}
+
+int init_script() {
+int num;
+	num = rand() % num_bind_entries;
+
+	ns_set_int_val ("Uname", bindTable[num].unum);
+	ns_set_int_val ("Acode", (int)bindTable[num].acode);
+	ns_set_int_val ("Devnum", bindTable[num].dnum);
+	ns_save_string (bindTable[num].inum, "IPaddr");
+	return class1_0_html;
+}
+
+int pre_page_class1_0_html(void) {
+   return NS_USE_CONFIGURED_THINK_TIME;
+}
+
+int check_page_class1_0_html(void) {
+int devnum;
+
+	printf ("Uname = %s\n", ns_eval_string("{Uname}"));
+	printf ("Acode = %s\n", ns_eval_string("{Acode}"));
+	printf ("Devnum = %s\n", ns_eval_string("{Devnum}"));
+	printf ("IPaddr = %s\n", ns_eval_string("{IPaddr}"));
+
+	devnum = ns_get_int_val("Devnum");
+	strcpy( deviceTable[devnum].cookie1, ns_eval_string("{Cook1}"));
+	strcpy( deviceTable[devnum].cookie2, ns_eval_string("{Cook2}"));
+	printf ("Cook1 = %s\n", ns_eval_string("{Cook1}"));
+	printf ("Cook2 = %s\n", ns_eval_string("{Cook2}"));
+	return -1;
+}
+
+void exit_script() {
+	return;
+}
+void call_test_exit() {
+int i;
+FILE *fp;
+
+    fp = fopen("/home/netstorm/work/sys/devNames.dat", "w");
+    if (fp) {
+	fprintf (fp, "%d\n", num_devices);
+	for (i = 0; i < num_devices; i++) {
+	    fprintf(fp, "%s,%s,%hd\n", 
+	    	deviceTable[i].cookie1, 
+	    	deviceTable[i].cookie2, 
+	    	deviceTable[i].dev_signature); 
+	}
+	fflush(fp);
+	fclose (fp);
+    }
+}
+
+void user_test_exit() {
+	call_test_exit();
+}

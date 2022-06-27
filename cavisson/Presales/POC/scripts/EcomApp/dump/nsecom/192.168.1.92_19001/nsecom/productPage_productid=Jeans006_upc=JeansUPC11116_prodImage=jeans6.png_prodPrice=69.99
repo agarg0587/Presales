@@ -1,0 +1,130 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+<title>NSEcom Product details</title>
+<style>
+
+#navcontainer ul
+{
+align:center;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+
+color: #fff;
+background-color: #5B88C0;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #B75A00;
+}
+
+.tableCell
+{
+border-top:1px solid white;
+border-right:1px solid #ADC6E9;
+border-bottom:1px solid #ADC6E9;
+border-left:1px solid white;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+
+.table
+{
+border-top:2px solid #BCD0EF;
+border-left:1px solid #BCD0EF;
+border-bottom:1px solid #BCD0EF;
+border-right:1px solid #BCD0EF;
+font-size:10px;
+color:blue;
+}
+
+.table
+{
+border-top:2px solid #BCD0EF;
+border-left:1px solid #BCD0EF;
+border-bottom:1px solid #BCD0EF;
+border-right:1px solid #BCD0EF;
+font-size:10px;
+color:blue;
+}
+</style>
+</head><body leftmargin="0" topmargin="0" bgcolor="#e6e6fa" marginheight="0" marginwidth="0">
+
+
+<form name="frmMain1" method="get" action="searchProduct"><table border="0" width="100%">
+<tbody><tr><td>
+<br>
+<table align="center" border="0" width="60%">
+<tbody><tr><td align="right" width="40%"><img src="images/nsecomlogo.png"></td>
+<td width="20%"><input style="font-size: 16px;" name="keyword" type="text"></td>
+<td width="40%"><input value="search" type="submit">
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr><td>
+<table align="center" width="60%">
+<tbody><tr><td>
+<div id="navcontainer">
+<ul>
+<li><a href="#">  Gift Shop  </a></li>
+<li><a href="#"> Women </a></li>
+<li><a href="#">  Men  </a></li>
+<li><a href="#">  Shoes  </a></li>
+<li><a href="#">  Home Accents  </a></li>
+<li><a href="#"> New Items </a></li>
+</ul>
+</div>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr><td>
+<table class="table" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="60%"> <tbody><tr>
+<td style="border-right: 1px solid rgb(173, 198, 233);" width="35%">
+<img src="images/jeans6.png" alt="Available" height="450" width="300">
+</td>
+
+<td>
+<form name="frmMain2" method="get"><table border="0" width="100%">
+<tbody><tr><td><table border="0"><tbody><tr><td width="8%">Color: </td><td width="5%"><table border="1" width="100%"><tbody><tr><td bgcolor="blue" width="100%"> </td></tr></tbody></table></td><td> </td></tr><tr><td> </td><td>blue</td></tr></tbody></table></td></tr>
+<tr><td width="100%"><table border="0" width="100%"><tbody><tr><td width="8%">Size: </td><td width="12%"><select name="size" title="Select the available size" style="width: 90%;"><option value="2" selected="selected">2</option> <option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="10">10</option></select></td><td> </td></tr></tbody></table></td></tr>
+<tr><td><table border="0" width="100%"><tbody><tr><td width="8%">Qty:</td><td width="12%"><input name="productid" value="NA" type="hidden"><input name="price" value="69.99" type="hidden"><input name="upc" value="JeansUPC11116" type="hidden"><input name="prodImage" value="jeans6.png" type="hidden"><input style="width: 85%;" name="quantity" type="text"></td><td>       <input value="Add to cart" onclick="validate()" type="button"></td></tr></tbody></table></td></tr>
+</tbody></table></form>
+
+</td>
+
+
+
+
+</tr></tbody></table>
+</td></tr>
+</tbody></table>
+ <script type="text/javascript">
+function validate()
+{
+ value = document.frmMain2.quantity.value;
+ value = value.replace(/^\s+/g, '').replace(/\s+$/g, '') 
+ if(value == ''){ 
+   alert('Please enter quantity.'); document.frmMain2.quantity.focus();return false;}
+  var pattern = /[^0-9]/;
+  if(value.match(pattern))
+  {
+    alert ('Please enter only numeric value.');document.frmMain2.quantity.focus();
+    return false;
+  }
+document.frmMain2.action='addToBag'
+document.frmMain2.submit();
+}
+ </script>
+</form></body></html>

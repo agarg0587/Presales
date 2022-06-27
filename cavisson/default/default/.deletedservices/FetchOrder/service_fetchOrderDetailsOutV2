@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <transactionID>{Envelope_Header_sessionid}</transactionID>
+   </soap:Header>
+   <soap:Body>
+      <fetchOrderDetailsOutV2Response>
+         <Orders>
+            <Orderinfo>
+               <CarrierServiceCode>STANDARD</CarrierServiceCode>
+               <CustomerEMailID>createaccount2@yopmail.com</CustomerEMailID>
+               <CustomerFirstName>Test</CustomerFirstName>
+               <CustomerLastName>Order</CustomerLastName>
+               <CustomerPONo>CVP100596</CustomerPONo>
+               <OrderDate>{DateTime_1649318752710}</OrderDate>
+               <OrderNo>{Envelope_Body_fetchOrderDetailsOutV2_Order_OrderNo}</OrderNo>
+               <OrderType>FactoryShipOrder</OrderType>
+               <CustomerVID>20175741542</CustomerVID>
+            </Orderinfo>
+            <PersonInfoShipTo>
+               <AddressLine1>17580 PRESTON RD</AddressLine1>
+               <City>DALLAS</City>
+               <Country>US</Country>
+               <FirstName>Test</FirstName>
+               <LastName>Order</LastName>
+               <State>TX</State>
+               <ZipCode>75252</ZipCode>
+            </PersonInfoShipTo>
+            <PersonInfoBillTo>
+               <AddressLine1>17580 PRESTON RD</AddressLine1>
+               <City>DALLAS</City>
+               <Country>US</Country>
+               <FirstName>Test</FirstName>
+               <LastName>Order</LastName>
+               <State>TX</State>
+               <ZipCode>752525732</ZipCode>
+            </PersonInfoBillTo>
+            <OverallTotals>
+               <GrandCharges>0.00</GrandCharges>
+               <GrandDiscount>0.00</GrandDiscount>
+               <GrandShippingCharges>0.00</GrandShippingCharges>
+               <GrandTax>62.86</GrandTax>
+               <GrandTotal>824.85</GrandTotal>
+            </OverallTotals>
+            <OrderLine>
+               <OrderLineFulfillmentType>FACTORYSHIP</OrderLineFulfillmentType>
+               <CustomerItem>ppr5007179546</CustomerItem>
+               <CustomerItemDesc>Sealy Posturepedic 10 Memory Foam  Mattress Only</CustomerItemDesc>
+               <ItemID>7994093-0018</ItemID>
+            </OrderLine>
+         </Orders>
+      </fetchOrderDetailsOutV2Response>
+   </soap:Body>
+</soap:Envelope>

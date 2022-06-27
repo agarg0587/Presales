@@ -1,0 +1,1 @@
+[{"key":"{attachment_key}"},{"x-amz-algorithm":"{attachment_x-amz-algorithm}"},{"x-amz-credential":"{attachment_x-amz-credential}"},{"policy":"{attachment_policy}"},{"x-amz-signature":"{attachment_x-amz-signature}"},{"x-amz-date":"{attachment_x-amz-date}"},{"x-amz-security-token":"{attachment_x-amz-security-token}"}]

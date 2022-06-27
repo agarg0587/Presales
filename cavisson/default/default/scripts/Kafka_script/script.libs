@@ -1,0 +1,1 @@
+-I /opt/librdkafka-master/src -g -L /opt/librdkafka-master/src -l rdkafka

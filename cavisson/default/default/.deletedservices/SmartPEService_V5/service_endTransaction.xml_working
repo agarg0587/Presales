@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns4:endTransactionResponse xmlns:ns2="http://www.macys.com/enterprise_services" xmlns:ns3="http://input.pricing.macys.com" xmlns:ns4="http://output.pricing.macys.com">
+         <transactionID>{TransactionID}</transactionID>
+         <DivStoreList>
+            <DivStore>
+               <Division>{Division}</Division>
+               <Store>{Store}</Store>
+            </DivStore>
+         </DivStoreList>
+      </ns4:endTransactionResponse>
+   </soap:Body>
+</soap:Envelope>

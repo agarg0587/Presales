@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+
+
+<link rel="stylesheet" href="/nsecom/css/style.css" type="text/css">
+
+
+
+    <title>NSEcom Search page</title></head><body leftmargin="0" topmargin="0" bgcolor="#e6e6fa" marginheight="0" marginwidth="0">
+    <form name="frmMain" method="get">
+    <table border="0" width="100%">
+    <tbody><tr><td>
+    
+    </td></tr><tr>
+      <td align="center" valign="top" width="10%">
+        <img src="/nsecom/images/logo.png" height="30" width="140">
+      </td>
+    </tr>
+    
+    </tbody></table><br>
+        <table align="center" border="0" width="60%">
+      <tbody><tr><td align="right" width="45%"><img src="/nsecom/images/nsecomlogo.png"></td>
+        <td width="10%"><input style="font-size: 16px;" name="keyword" type="text"></td>
+        <td width="45%"><input value="search" onclick="validateKeyword();" type="submit">  
+      </td></tr>
+    </tbody></table>
+    
+    
+    <table align="center" border="0" width="60%">
+    <tbody><tr><td align="center">
+    <div id="navcontainer" align="center">
+    
+    <ul>
+    <li><a href="#">  Gift Shop  </a></li>
+    <li><a href="#"> Women </a></li>
+    <li><a href="#">  Men  </a></li>
+    <li><a href="#">  Shoes  </a></li>
+    <li><a href="#">  Home Accents  </a></li>
+    <li><a href="#"> New Items </a></li>
+    </ul>
+    
+    </div>
+    </td></tr>
+    </tbody></table><table>
+    
+    </table>
+    </form>
+    
+
+
+
+
+
+
+	
+
+
+	<table align="center" width="60%">
+		<tbody><tr>
+			<td>  7 Results for: pants
+			</td>
+		</tr>
+	</tbody></table>
+
+	
+
+	<table align="center" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant001&amp;upc=PantUPC11111&amp;prodImage=pants1.png&amp;prodPrice=19.99"><img src="/nsecom/images/pants1.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant002&amp;upc=PantUPC11112&amp;prodImage=pants2.png&amp;prodPrice=29.99"><img src="/nsecom/images/pants2.png" height="160" width="150"></a></td>
+
+			
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant003&amp;upc=PantUPC11113&amp;prodImage=pants3.png&amp;prodPrice=39.99"><img src="/nsecom/images/pants3.png" height="160" width="150"></a></td>
+
+			
+		</tr>
+
+		<tr>
+			<td align="left">Pants color blue</td>
+
+			
+
+			<td align="left">Pants color grey</td>
+
+			
+
+			
+			<td align="left">Pants color black</td>
+
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 19.99
+			</td>
+
+			
+			<td align="left">US $ 29.99
+			</td>
+
+			
+
+			
+			
+			<td align="left">US $ 39.99
+			
+			</td>
+
+			
+		</tr>
+		
+
+	</tbody></table><table align="center" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant004&amp;upc=PantUPC11114&amp;prodImage=pants4.png&amp;prodPrice=49.99"><img src="/nsecom/images/pants4.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant005&amp;upc=PantUPC11115&amp;prodImage=pants5.png&amp;prodPrice=59.99"><img src="/nsecom/images/pants5.png" height="160" width="150"></a></td>
+
+			
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant006&amp;upc=PantUPC11116&amp;prodImage=pants6.png&amp;prodPrice=69.99"><img src="/nsecom/images/pants6.png" height="160" width="150"></a></td>
+
+			
+		</tr>
+
+		<tr>
+			<td align="left">Pants color blue</td>
+
+			
+
+			<td align="left">Pants color blue</td>
+
+			
+
+			
+			<td align="left">Pants color blue</td>
+
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 49.99
+			</td>
+
+			
+			<td align="left">US $ 59.99
+			</td>
+
+			
+
+			
+			
+			<td align="left">US $ 69.99
+			
+			</td>
+
+			
+		</tr>
+		
+
+	</tbody></table><table align="center" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Pant007&amp;upc=PantUPC11117&amp;prodImage=pants7.png&amp;prodPrice=79.99"><img src="/nsecom/images/pants7.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left" width="150"> </td>
+			
+
+			
+
+			<td align="left" width="150"> </td>
+			
+		</tr>
+
+		<tr>
+			<td align="left">Pants color blue</td>
+
+			
+			<td align="left"> </td>
+			
+
+			
+			<td align="left"> </td>
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 79.99
+			</td>
+
+			
+			<td align="left"> </td>
+			
+
+			
+			<td align="left"> </td>
+			
+		</tr>
+		
+
+	</tbody></table>
+
+
+
+
+	<script type="text/javascript" src="/nsecom/js/validate.js"></script>
+
+
+
+<br>
+<hr>
+  <table border="0" cellpadding="0" cellspacing="0" width="99%">
+<tbody><tr>
+       <td>
+            <center>Copyright © 2013, Cavisson Systems Inc. All rights reserved.</center>
+       </td>
+  </tr>
+  
+  <tr>
+      <td> </td>
+  </tr>
+  
+</tbody></table>
+
+</body></html>

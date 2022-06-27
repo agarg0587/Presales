@@ -1,0 +1,27 @@
+main()
+{
+  int next_page, think_time;
+//Define Any NS Variables here. Do not remove or modify this line
+
+//End of NS Variable decalarations. Do not remove or modifify this line
+
+  next_page = init_script();
+
+  while(next_page != -1) {
+    switch(next_page) {
+      case class1_0_html:
+        think_time = pre_page_class1_0_html();
+        web_url (class1_0_html,
+          METHOD=GET,
+          URL=http://127.0.0.1/file_set/dir00000/class2_3.html,
+          NUM_EMBED=0);
+        next_page = check_page_class1_0_html();
+        break;
+
+      default:
+        next_page = -1;
+    }
+    do_think(think_time);
+  }
+  exit_script();
+}

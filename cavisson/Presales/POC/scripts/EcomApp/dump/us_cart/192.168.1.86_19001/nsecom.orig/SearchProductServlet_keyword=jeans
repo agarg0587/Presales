@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=">
+
+
+<link rel="stylesheet" href="/nsecom/css/style.css" type="text/css">
+
+
+
+    <title>NSEcom Search page</title></head><body leftmargin="0" topmargin="0" bgcolor="#e6e6fa" marginheight="0" marginwidth="0">
+    <form name="frmMain" method="get">
+    <table border="0" width="100%">
+    <tbody><tr><td>
+    
+    </td></tr><tr>
+      <td align="center" valign="top" width="10%">
+        <img src="/nsecom/images/logo.png" height="30" width="140">
+      </td>
+    </tr>
+    
+    </tbody></table><br>
+        <table align="center" border="0" width="60%">
+      <tbody><tr><td align="right" width="45%"><img src="/nsecom/images/nsecomlogo.png"></td>
+        <td width="10%"><input style="font-size: 16px;" name="keyword" type="text"></td>
+        <td width="45%"><input value="search" onclick="validateKeyword();" type="submit">  
+      </td></tr>
+    </tbody></table>
+    
+    
+    <table align="center" border="0" width="60%">
+    <tbody><tr><td align="center">
+    <div id="navcontainer" align="center">
+    
+    <ul>
+    <li><a href="#">  Gift Shop  </a></li>
+    <li><a href="#"> Women </a></li>
+    <li><a href="#">  Men  </a></li>
+    <li><a href="#">  Shoes  </a></li>
+    <li><a href="#">  Home Accents  </a></li>
+    <li><a href="#"> New Items </a></li>
+    </ul>
+    
+    </div>
+    </td></tr>
+    </tbody></table><table>
+    
+    </table>
+    
+    </form>
+    
+
+
+
+
+
+
+	
+
+
+	<table align="center" border="0" width="60%">
+		<tbody><tr>
+			<td>  9 Results for: jeans
+			</td>
+		</tr>
+	</tbody></table>
+
+	
+
+	<table align="center" border="0" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans001&amp;upc=JeansUPC11111&amp;prodImage=jeans1.png&amp;prodPrice=19.99"><img src="/nsecom/images/jeans1.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans002&amp;upc=JeansUPC11112&amp;prodImage=jeans2.png&amp;prodPrice=29.99"><img src="/nsecom/images/jeans2.png" height="160" width="150"></a></td>
+
+			
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans003&amp;upc=JeansUPC11113&amp;prodImage=jeans3.png&amp;prodPrice=39.99"><img src="/nsecom/images/jeans3.png" height="160" width="150"></a></td>
+
+			
+		</tr>
+
+		<tr>
+			<td align="left">Jean Lee color blue</td>
+
+			
+
+			<td align="left">Jean Lee color black</td>
+
+			
+
+			
+			<td align="left">Jean Lee color blue</td>
+
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 19.99
+			</td>
+
+			
+			<td align="left">US $ 29.99
+			</td>
+
+			
+
+			
+			<td align="left">US $ 39.99
+			</td>
+
+			
+		</tr>
+		
+
+	</tbody></table><table align="center" border="0" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans004&amp;upc=JeansUPC11114&amp;prodImage=jeans4.png&amp;prodPrice=49.99"><img src="/nsecom/images/jeans4.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans005&amp;upc=JeansUPC11115&amp;prodImage=jeans5.png&amp;prodPrice=59.99"><img src="/nsecom/images/jeans5.png" height="160" width="150"></a></td>
+
+			
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans006&amp;upc=JeansUPC11116&amp;prodImage=jeans6.png&amp;prodPrice=69.99"><img src="/nsecom/images/jeans6.png" height="160" width="150"></a></td>
+
+			
+		</tr>
+
+		<tr>
+			<td align="left">Jean Lee color blue</td>
+
+			
+
+			<td align="left">Jean Lee color blue</td>
+
+			
+
+			
+			<td align="left">Jean Lee color blue</td>
+
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 49.99
+			</td>
+
+			
+			<td align="left">US $ 59.99
+			</td>
+
+			
+
+			
+			<td align="left">US $ 69.99
+			</td>
+
+			
+		</tr>
+		
+
+	</tbody></table><table align="center" border="0" width="50%">
+		<tbody><tr>
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans007&amp;upc=JeansUPC11117&amp;prodImage=jeans7.png&amp;prodPrice=79.99"><img src="/nsecom/images/jeans7.png" height="160" width="150"></a></td>
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans008&amp;upc=JeansUPC11118&amp;prodImage=jeans8.png&amp;prodPrice=89.99"><img src="/nsecom/images/jeans8.png" height="160" width="150"></a></td>
+
+			
+
+			
+
+			<td align="left"><a href="/nsecom/ProductPageServlet?productid=Jeans009&amp;upc=JeansUPC11119&amp;prodImage=jeans9.png&amp;prodPrice=99.99"><img src="/nsecom/images/jeans9.png" height="160" width="150"></a></td>
+
+			
+		</tr>
+
+		<tr>
+			<td align="left">Jean Lee color blue</td>
+
+			
+
+			<td align="left">Jean Lee color blue</td>
+
+			
+
+			
+			<td align="left">Jean Lee color blue</td>
+
+			
+		</tr>
+
+
+		<tr>
+			<td align="left">US $ 79.99
+			</td>
+
+			
+			<td align="left">US $ 89.99
+			</td>
+
+			
+
+			
+			<td align="left">US $ 99.99
+			</td>
+
+			
+		</tr>
+		
+
+		
+	</tbody></table>
+
+
+
+
+	<script type="text/javascript" src="/nsecom/js/validate.js"></script>
+
+
+
+<br>
+<hr>
+  <table border="0" cellpadding="0" cellspacing="0" width="99%">
+<tbody><tr>
+       <td>
+            <center>Copyright © 2013, Cavisson Systems Inc. All rights reserved.</center>
+       </td>
+  </tr>
+  
+  <tr>
+      <td> </td>
+  </tr>
+  
+</tbody></table>
+
+</body></html>

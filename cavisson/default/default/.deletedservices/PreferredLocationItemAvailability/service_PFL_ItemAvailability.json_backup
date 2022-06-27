@@ -1,0 +1,95 @@
+{
+"returnCode": "1",
+"returnMessage": "SUCCESS",
+"itemList": [
+{
+"lineNumber": 1,
+"upcNumber": {UPC},
+"quantityAdjusted": 1,
+"unitPrice": 0,
+"shipdetails": [
+{
+"shipDate": "05/29/2018",
+"shipDays": "7",
+"shipIndicator": "C",
+"deliveryType": "3"
+},
+{
+"shipDate": "05/29/2018",
+"shipDays": "7",
+"shipIndicator": "C",
+"deliveryType": "2"
+},
+{
+"shipDate": "05/29/2018",
+"shipDays": "7",
+"shipIndicator": "C",
+"deliveryType": "1"
+},
+{
+"shipDate": "05/29/2018",
+"shipDays": "7",
+"shipIndicator": "C",
+"deliveryType": "W"
+}
+],
+"deliveryDetails": [
+{
+"estimatedArrivalDate": "05/26/2018",
+"deliveryDays": "5",
+"deliveryInd": "C",
+"deliveryType": "3"
+},
+{
+"estimatedArrivalDate": "05/24/2018",
+"deliveryDays": "3",
+"deliveryInd": "C",
+"deliveryType": "2"
+},
+{
+"estimatedArrivalDate": "05/23/2018",
+"deliveryDays": "2",
+"deliveryInd": "C",
+"deliveryType": "1"
+},
+{
+"estimatedArrivalDate": "05/26/2018",
+"deliveryDays": "5",
+"deliveryInd": "C",
+"deliveryType": "W"
+}
+],
+"giftMessageSupportForDrop": false,
+"dropVendorNumber": 0,
+"fulfillmentLocations": [
+{
+"filLocationNumber": 6230,
+"locationType": "PS",
+"locationreturnCode": "SP",
+"orderMethod": "POOL",
+"shipMethodOptions": "1",
+"fillStore": 852,
+"quantityAllocated": 0,
+"refurbishPutAway": 0,
+"totalAvailableToSell": 90,
+"filDivison": "71"
+}
+],
+"discontinueFlag": "false",
+"productGroupCode": "KITCH2",
+"dropShipMethods": "",
+"sameSkuUpcFlag": false,
+"giftRegistryEligible": true,
+"giftCatId": 13,
+"giftCatDescription": "HOUSEWARES ACCESSORIES",
+"giftMessageSupplyFlag": true,
+"divisionDefinedFlag": true,
+"instoreEligibilityFlag": true,
+"ngfProductCode": 5,
+"ngfProductDate": "9999-12-30",
+"clearance": false,
+"giftWrapAvailable": true,
+"partialFulfilled": false
+}
+]
+}

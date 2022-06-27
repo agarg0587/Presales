@@ -1,0 +1,8 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+index_html|Main|0|https://nspoc3.cav-test.com:9010/tours/index.html|nspoc3.cav-test.com_9010/tours/index.html|text/html|0|NA|nspoc3.cav-test.com:9010|/tours/|./../|200|0.002|0|2975|GET|NA|NA|NA|NA|19.031|20.615|NA|NA|NA|NA|NA
+index_html|Inline|1|https://nspoc3.cav-test.com:9010/tours/Merc10-dev/images/banner_animated.gif|nspoc3.cav-test.com_9010/tours/Merc10-dev/images/banner_animated.gif|image/gif|0|NA|nspoc3.cav-test.com:9010|/tours/Merc10-dev/images/|./../../../|200|0.001|0|16522|GET|NA|NA|NA|NA|20.749|21.437|NA|NA|NA|NA|NA
+index_html|Inline|2|https://nspoc3.cav-test.com:9010/tours/Merc10-dev/images/sun_swede.gif|nspoc3.cav-test.com_9010/tours/Merc10-dev/images/sun_swede.gif|image/gif|0|NA|nspoc3.cav-test.com:9010|/tours/Merc10-dev/images/|./../../../|200|0.001|0|4125|GET|NA|NA|NA|NA|20.757|21.46|NA|NA|NA|NA|NA
+index_html|Inline|3|https://nspoc3.cav-test.com:9010/tours/Merc10-dev/images/login.gif|nspoc3.cav-test.com_9010/tours/Merc10-dev/images/login.gif|image/gif|0|NA|nspoc3.cav-test.com:9010|/tours/Merc10-dev/images/|./../../../|200|0.001|0|1323|GET|NA|NA|NA|NA|20.76|21.473|NA|NA|NA|NA|NA
+index_html|Inline|4|https://nspoc3.cav-test.com:9010/tours/images/banner_merctur.jpg|nspoc3.cav-test.com_9010/tours/images/banner_merctur.jpg|image/jpeg|0|NA|nspoc3.cav-test.com:9010|/tours/images/|./../../|200|0.001|0|22548|GET|NA|NA|NA|NA|20.785|21.484|NA|NA|NA|NA|NA

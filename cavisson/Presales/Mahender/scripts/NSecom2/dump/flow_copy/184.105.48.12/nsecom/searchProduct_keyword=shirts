@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>NSEcom Search results</title>
+<style>
+
+#navcontainer ul
+{
+align:center;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+
+color: #fff;
+background-color: #5B88C0;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #B75A00;
+}
+
+</style>
+</head>
+<body bgcolor='#E6E6FA' LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<form name=frmMain1 method=get action='searchProduct'>
+<table border =0 width=100%>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><br/>
+<td width=40% align=right><img src='images/nsecomlogo.png'></td>
+<td width=20%><input type=text style='font-size:16px;' name= 'keyword' /></td>
+<td width=40%><input type=submit  value='search'> </from>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><td align=center>
+<div id='navcontainer' align=center>
+<ul >
+<li ><a href='#'>&nbsp;&nbsp;Gift Shop&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;Women&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Men&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Shoes&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Home Accents&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;New Items&nbsp;</a></li>
+</ul>
+</div>
+</td></tr>
+</table>
+</td></tr>
+
+
+
+<tr><td><table border=0 width=60% align=center><tr><td>&nbsp;&nbsp;7 Results for: shirts</td></tr></table></td></tr>
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Shirt001&upc=ShirtUPC11111&prodImage=shirt1.png&prodPrice=19.99"><img src=images/shirt1.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Shirt002&upc=ShirtUPC11112&prodImage=shirt2.png&prodPrice=29.99"><img src=images/shirt2.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Shirt003&upc=ShirtUPC11113&prodImage=shirt3.png&prodPrice=39.99"><img src=images/shirt3.png width='150' height='160'/></a></td></tr>
+<tr><td align=left>Shirt color blue</td>
+<td align=left>Shirt color blue</td>
+<td align=left>Shirt color blue</td></tr>
+<tr><td align=left> US $19.99</td>
+<td align=left> US $29.99</td>
+<td align=left> US $39.99</td></tr>
+</table></td></tr>
+
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Shirt004&upc=ShirtUPC11114&prodImage=shirt4.png&prodPrice=49.99"><img src=images/shirt4.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Shirt005&upc=ShirtUPC11115&prodImage=shirt5.png&prodPrice=59.99"><img src=images/shirt5.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Shirt006&upc=ShirtUPC11116&prodImage=shirt6.png&prodPrice=69.99"><img src=images/shirt6.png width='150' height='160'/></a></td></tr>
+<tr><td align=left>Shirt color blue</td>
+<td align=left>Shirt color blue</td>
+<td align=left>Shirt color blue</td></tr>
+<tr><td align=left> US $49.99</td>
+<td align=left> US $59.99</td>
+<td align=left> US $69.99</td></tr>
+</table></td></tr>
+
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Shirt007&upc=ShirtUPC11117&prodImage=shirt7.png&prodPrice=79.99"><img src=images/shirt7.png width='150' height='160'/></a></td>
+<td align=leftwidth='150'> &nbsp;</td>
+<td align=leftwidth='150'> &nbsp;</td></tr>
+<tr><td align=left>Shirt color blue</td>
+<td align=left> &nbsp;</td>
+<td align=left> &nbsp;</td></tr>
+<tr><td align=left> US $79.99</td>
+<td align=left> &nbsp;</td>
+<td align=left> &nbsp;</td></tr>
+</table></td></tr>
+
+
+</table>
+</body>
+</html>

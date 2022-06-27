@@ -1,0 +1,11 @@
+{
+  "ResponseProperties": {
+    "SchemaVersion": 1,
+    "Locale": "en",
+    "DateAndTimes": {
+      "value": {DateTime},
+      "subClass": "RESPONSE_DATE"
+    }
+  },
+  "SenderStatus": "{Status}"
+}

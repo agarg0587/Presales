@@ -1,0 +1,82 @@
+--Request 
+GET https://10.10.30.128/nsecom/
+Host: 10.10.30.128
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+----
+--Response 
+HTTP/1.1 200
+cache-control: private
+strict-transport-security: max-age=0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self';
+expect-ct: max-age=0
+accept-ranges: bytes
+etag: W/\"7398-1640809662000\"
+last-modified: Wed, 29 Dec 2021 20:27:42 GMT
+content-type: text/html;charset=UTF-8
+content-length: 7398
+date: Mon, 17 Jan 2022 08:30:12 GMT
+----
+--Request 
+GET http://certificates.godaddy.com/repository/gdig2.crt
+Host: certificates.godaddy.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+----
+--Response 
+HTTP/1.1 200 OK
+Server: Sucuri/Cloudproxy
+Date: Mon, 17 Jan 2022 08:29:59 GMT
+Content-Length: 1236
+Connection: keep-alive
+X-Sucuri-ID: 22036
+Last-Modified: Thu, 06 Jan 2022 18:19:55 GMT
+ETag: \"4d4-5d4edeaca08c0\"
+Cache-Control: public, no-transform, must-revalidate
+Expires: Sun, 09 Jan 2022 08:49:50 GMT
+P3P: CP=\"IDC DSP COR LAW CUR ADM DEV TAI PSA PSD IVA IVD HIS OUR SAM PUB LEG UNI COM NAV STA\"
+X-Sucuri-Cache: HIT
+Accept-Ranges: bytes
+----
+--Request 
+GET https://10.10.30.128/nsecom/images/logo.png
+Host: 10.10.30.128
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://10.10.30.128/nsecom/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+----
+--Response 
+HTTP/1.1 200
+cache-control: private
+strict-transport-security: max-age=0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self';
+expect-ct: max-age=0
+accept-ranges: bytes
+etag: W/\"7404-1631574616000\"
+last-modified: Mon, 13 Sep 2021 23:10:16 GMT
+content-type: image/png;charset=UTF-8
+content-length: 7404
+date: Mon, 17 Jan 2022 08:30:12 GMT
+----
+

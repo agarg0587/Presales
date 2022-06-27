@@ -1,0 +1,24 @@
+{
+    "orderAmount": {orderAmount},
+    "fulfilmentAmount": 0,
+    "refundedAmount": 0,
+    "currency": "USD",
+    "cancelable": false,
+    "refundable": false,
+    "completable": true,
+    "timestamp": "{TS}",
+    "transactionReferences": [
+        {
+            "transactionId": {TransID},
+            "transactionTypeId": 108,
+            "transactionType": "InitiateDebit",
+            "transactionDate": "{TS}",
+            "transactionDesc": "Transaction Accepted",
+            "statusCode": 0,
+            "status": "Processed",
+            "amount": 10.50,
+            "currency": "USD",
+            "paymentMethod": "{paymentMethod}",
+        }
+    ]
+}

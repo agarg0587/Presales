@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header>
+		<ent:requestor_info xmlns:ent="http://www.macys.com/enterprise_services">
+			<version>4.0</version>
+			<client_id>MCOM</client_id>
+			<subclient_id>iShop_iPhone</subclient_id>
+		</ent:requestor_info>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ns3:getUYC xmlns:ns3="http://v4.services.pe.macys.com" xmlns:ns2="http://www.macys.com/enterprise_services" xmlns:ns4="http://output.pricing.macys.com" xmlns:ns5="http://input.pricing.macys.com">
+			<divisionID>71</divisionID>
+			<storeID>572</storeID>
+		</ns3:getUYC>
+	</soapenv:Body>
+</soapenv:Envelope>
