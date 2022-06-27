@@ -2,7 +2,6 @@
     "configuration": {
         "serviceTime": "300"
     },
-   
     "parameters": [
    {
      "name": "AddressLine,City,State,Zipcode",
