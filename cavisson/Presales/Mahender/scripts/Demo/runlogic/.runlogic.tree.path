@@ -1,9 +1,0 @@
-0:Start
-1:Start|flow
-2:Start|flow|index_html
-3:Start|Block1
-4:Start|Block1|(pct=60.0%)Login
-5:Start|Block1|(pct=60.0%)Login|login
-6:Start|Block1|(pct=60.0%)Login|findflight
-7:Start|Block1|(pct=40.0%)flow
-8:Start|Block1|(pct=40.0%)flow|index_html

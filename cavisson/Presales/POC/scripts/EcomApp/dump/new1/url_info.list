@@ -1,9 +1,0 @@
-#version=1.0
-#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
-
-index_2|Main|0|http://192.168.1.92:19001/nsecom|192.168.1.92_19001/nsecom|NA|1|http://192.168.1.92:19001/nsecom/|192.168.1.92:19001|/|./|302|0|0|-1|GET|webpage_1366613634359.png|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
-index_2|Inline|1|http://192.168.1.92:19001/nsecom/|192.168.1.92_19001/nsecom/index|text/html|0|NA|192.168.1.92:19001|/nsecom/|./../|200|0|0|2083|GET|NA|webpage_1366613634687.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
-index_2|Inline|2|http://192.168.1.92:19001/nsecom/images/logo.png|192.168.1.92_19001/nsecom/images/logo.png|NA|0|NA|192.168.1.92:19001|/nsecom/images/|./../../|200|0|0|7404|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
-home_2|Main|0|http://192.168.1.92:19001/nsecom/home|192.168.1.92_19001/nsecom/home|text/html|0|NA|192.168.1.92:19001|/nsecom/|./../|200|0|0|1354|GET|webpage_1366613640256.png|webpage_1366613640724.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
-home_2|Inline|1|http://192.168.1.92:19001/nsecom/images/nsecomlogo.png|192.168.1.92_19001/nsecom/images/nsecomlogo.png|NA|0|NA|192.168.1.92:19001|/nsecom/images/|./../../|200|0|0|8184|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
-searchProduct_2|Main|0|http://192.168.1.92:19001/nsecom/searchProduct?keyword=jeans|192.168.1.92_19001/nsecom/searchProduct_keyword=jeans|text/html|0|NA|192.168.1.92:19001|/nsecom/|./../|500|0.003|0|2522|GET|webpage_1366613645295.png|webpage_1366613648321.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
