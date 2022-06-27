@@ -1,9 +1,0 @@
-0:Start
-1:Start|HOW_Copy
-2:Start|HOW_Copy|Login
-3:Start|HOW_Copy|Get_Attachment_URL
-4:Start|HOW_Copy|Upload_Attachment
-5:Start|HOW_Copy|Create_Incident
-6:Start|HOW_Copy|Get_Incident_s_
-7:Start|HOW_Copy|Get_Asset
-8:Start|HOW_Copy|Get_Config
