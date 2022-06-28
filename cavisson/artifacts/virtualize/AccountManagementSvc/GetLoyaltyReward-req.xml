@@ -13,7 +13,7 @@ POST /loyalty/loyaltyservice/v1 HTTP/1.1
    </soap:Header>
    <soap:Body>
       <v1:searchRewards>
-         <v11:provider>cavisson</v11:provider>
+         <v11:provider>cavisson1</v11:provider>
          <v11:emailAddress>perfemail1306295190@example.com</v11:emailAddress>
       </v1:searchRewards>
    </soap:Body>
