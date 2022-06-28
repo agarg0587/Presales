@@ -7,7 +7,7 @@
    <soap:Body>
       <PersAutoPolicyAddRq>
          <Policy>
-            <InsuranceCode>000011</InsuranceCode>
+            <InsuranceCode>000010</InsuranceCode>
             <PolicyNumber>2019094131002462</PolicyNumber>
             <SourceSystem>CSCR</SourceSystem>
             <IsGuestAccount>N</IsGuestAccount>
