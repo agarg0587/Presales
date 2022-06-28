@@ -9,7 +9,7 @@ POST /webservices/getpolicyinfo HTTP/1.1
    <soap:Body>
       <PersAutoPolicyAddRq>
          <Policy>
-            <InsuranceCode>00001</InsuranceCode>
+            <InsuranceCode>00002</InsuranceCode>
             <PolicyNumber>2019094131002462</PolicyNumber>
             <SourceSystem>CSCR</SourceSystem>
             <IsGuestAccount>N</IsGuestAccount>
